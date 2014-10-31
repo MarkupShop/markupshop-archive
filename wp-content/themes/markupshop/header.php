@@ -12,3 +12,10 @@
 	</head>
 	
 	<body>
+		
+		<header>
+			
+			<h1>MarkupShop</h1>
+			
+		</header>
+		
