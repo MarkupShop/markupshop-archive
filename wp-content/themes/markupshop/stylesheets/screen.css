@@ -274,3 +274,68 @@ section {
   width: 200px;
   font-size: 1em;
 }
+
+@media screen and (max-width: 1200px) {
+  /* line 154, ../sass/home.scss */
+  #about .about-text {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 160, ../sass/home.scss */
+  #about .about-bios {
+    margin-top: 2em;
+  }
+  /* line 163, ../sass/home.scss */
+  #about .about-bios dl {
+    width: 50%;
+    text-align: center;
+    float: left;
+  }
+  /* line 168, ../sass/home.scss */
+  #about .about-bios dl img {
+    width: 33%;
+    margin: 0 0 1em;
+    float: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 181, ../sass/home.scss */
+  #intro {
+    font-size: 2.5em;
+  }
+
+  /* line 186, ../sass/home.scss */
+  #services dl {
+    width: 100%;
+    float: none;
+  }
+  /* line 190, ../sass/home.scss */
+  #services dl + dl {
+    margin-top: 4em;
+  }
+
+  /* line 197, ../sass/home.scss */
+  #contact form {
+    width: 100%;
+  }
+  /* line 201, ../sass/home.scss */
+  #contact .contact-text {
+    float: none;
+    width: 100%;
+    margin-bottom: 4em;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 212, ../sass/home.scss */
+  #intro {
+    font-size: 2em;
+  }
+
+  /* line 218, ../sass/home.scss */
+  #about .about-bios dl {
+    float: none;
+    width: 100%;
+    margin: 0 0 2em;
+  }
+}
