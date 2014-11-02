@@ -9,9 +9,9 @@
 	<h3 class="access">About Us</h3>
 	
 	<div class="about-text">
-		<p>We believe that quality development is necessary to produce quality products.</p>
-		<p>We are obsessive about delivering a high-quality product and delivering it on time.</p>
-		<p>We don't aspire to be the biggest agency around, but we guarantee we'll deliver what we promise.</p>
+		<p>Organizations and their clients are desperate for reliable development when they need it &ndash; and we're here to help.</p>
+		<p>We believe that well-crafted development is necessary to produce quality products. We're obsessive about delivering high-quality code and doing it on time.</p>
+		<p>We're not interested in being the biggest agency around &ndash; but we do aspire to be the most reliable.</p>
 	</div>
 	
 	<div class="about-bios">

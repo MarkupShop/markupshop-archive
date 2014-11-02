@@ -11,13 +11,12 @@
 
 #about{
 	padding-top: 6em;
-	padding-bottom: 2em;
+	padding-bottom: 6em;
 	@include clearfix;
 	
 	.about-text{
 		float: left;
 		width: 45%;
-		margin-right: 16.333%;
 		line-height: 1.4em;
 		font-family: "freight-display-pro";
 		font-size: 1.2em;
@@ -27,13 +26,18 @@
 		}
 	}
 	
+	.about-bios{
+		width: 38.75%;
+		float: right;
+	}
+	
 	dl{
 		margin-bottom: 4em;
 		padding-top: 1em;
 		
 		img{
-			width: 12.4166667%;
-			margin-right: 2.91667%;
+			width: 33%;
+			margin-right: 5%;
 			float: left;
 			margin-top: -1em;
 		}
@@ -159,6 +163,8 @@
 		
 		.about-bios{
 			margin-top: 2em;
+			float: none;
+			width: 100%;
 			
 			dl{
 				width: 50%;
@@ -166,7 +172,6 @@
 				float: left;
 				
 				img{ 
-					width: 33%;
 					margin: 0 0 1em;
 					float: none;
 				}

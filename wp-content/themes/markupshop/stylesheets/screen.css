@@ -133,7 +133,7 @@ section {
 /* line 12, ../sass/home.scss */
 #about {
   padding-top: 6em;
-  padding-bottom: 2em;
+  padding-bottom: 6em;
   overflow: hidden;
   *zoom: 1;
 }
@@ -141,45 +141,49 @@ section {
 #about .about-text {
   float: left;
   width: 45%;
-  margin-right: 16.333%;
   line-height: 1.4em;
   font-family: "freight-display-pro";
   font-size: 1.2em;
 }
-/* line 25, ../sass/home.scss */
+/* line 24, ../sass/home.scss */
 #about .about-text p + p {
   margin-top: 2em;
 }
-/* line 30, ../sass/home.scss */
+/* line 29, ../sass/home.scss */
+#about .about-bios {
+  width: 38.75%;
+  float: right;
+}
+/* line 34, ../sass/home.scss */
 #about dl {
   margin-bottom: 4em;
   padding-top: 1em;
 }
-/* line 34, ../sass/home.scss */
+/* line 38, ../sass/home.scss */
 #about dl img {
-  width: 12.4166667%;
-  margin-right: 2.91667%;
+  width: 33%;
+  margin-right: 5%;
   float: left;
   margin-top: -1em;
 }
-/* line 41, ../sass/home.scss */
+/* line 45, ../sass/home.scss */
 #about dl dt {
   font-weight: 600;
 }
-/* line 45, ../sass/home.scss */
+/* line 49, ../sass/home.scss */
 #about dl .job-title {
   color: #aaa;
   font-weight: 100;
   font-size: .8em;
   margin: .25em 0 1em;
 }
-/* line 52, ../sass/home.scss */
+/* line 56, ../sass/home.scss */
 #about dl .skill {
   font-size: .8em;
   line-height: 1.2em;
 }
 
-/* line 61, ../sass/home.scss */
+/* line 65, ../sass/home.scss */
 #services {
   background: #e1e6e8;
   padding-top: 6em;
@@ -188,7 +192,7 @@ section {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 68, ../sass/home.scss */
+/* line 72, ../sass/home.scss */
 #services dl {
   width: 28%;
   margin: 0 2.5%;
@@ -196,31 +200,31 @@ section {
   padding-top: 5.5em;
   text-align: center;
 }
-/* line 75, ../sass/home.scss */
+/* line 79, ../sass/home.scss */
 #services dl dt {
   font-weight: 600;
   margin-bottom: 1em;
 }
-/* line 80, ../sass/home.scss */
+/* line 84, ../sass/home.scss */
 #services dl dd {
   line-height: 1.4em;
   font-size: 1em;
   font-family: "freight-display-pro";
 }
-/* line 87, ../sass/home.scss */
+/* line 91, ../sass/home.scss */
 #services .development {
   background: url("../assets/images/home/development.png") no-repeat center 10px;
 }
-/* line 91, ../sass/home.scss */
+/* line 95, ../sass/home.scss */
 #services .support {
   background: url("../assets/images/home/support.png") no-repeat center 12px;
 }
-/* line 95, ../sass/home.scss */
+/* line 99, ../sass/home.scss */
 #services .customization {
   background: url("../assets/images/home/customization.png") no-repeat top center;
 }
 
-/* line 100, ../sass/home.scss */
+/* line 104, ../sass/home.scss */
 #contact {
   background: #76bee4;
   padding-top: 6em;
@@ -228,29 +232,29 @@ section {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 106, ../sass/home.scss */
+/* line 110, ../sass/home.scss */
 #contact .contact-text {
   float: right;
   width: 38.75%;
   color: #fff;
 }
-/* line 111, ../sass/home.scss */
+/* line 115, ../sass/home.scss */
 #contact .contact-text h3 {
   font-weight: 600;
   font-size: 1.4em;
   margin-bottom: 1em;
 }
-/* line 117, ../sass/home.scss */
+/* line 121, ../sass/home.scss */
 #contact .contact-text p {
   font-family: "freight-display-pro";
   line-height: 1.4em;
   font-size: 1.2em;
 }
-/* line 124, ../sass/home.scss */
+/* line 128, ../sass/home.scss */
 #contact form {
   width: 45%;
 }
-/* line 127, ../sass/home.scss */
+/* line 131, ../sass/home.scss */
 #contact form input, #contact form textarea {
   width: 100%;
   border: none;
@@ -261,12 +265,12 @@ section {
   box-sizing: border-box;
   font-size: .8em;
 }
-/* line 136, ../sass/home.scss */
+/* line 140, ../sass/home.scss */
 #contact form textarea {
   height: 8em;
   resize: none;
 }
-/* line 141, ../sass/home.scss */
+/* line 145, ../sass/home.scss */
 #contact form input[type="submit"] {
   background: #edb665;
   text-transform: uppercase;
@@ -276,50 +280,51 @@ section {
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 154, ../sass/home.scss */
+  /* line 158, ../sass/home.scss */
   #about .about-text {
     float: none;
     width: 100%;
     text-align: center;
   }
-  /* line 160, ../sass/home.scss */
+  /* line 164, ../sass/home.scss */
   #about .about-bios {
     margin-top: 2em;
+    float: none;
+    width: 100%;
   }
-  /* line 163, ../sass/home.scss */
+  /* line 169, ../sass/home.scss */
   #about .about-bios dl {
     width: 50%;
     text-align: center;
     float: left;
   }
-  /* line 168, ../sass/home.scss */
+  /* line 174, ../sass/home.scss */
   #about .about-bios dl img {
-    width: 33%;
     margin: 0 0 1em;
     float: none;
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 181, ../sass/home.scss */
+  /* line 186, ../sass/home.scss */
   #intro {
     font-size: 2.5em;
   }
 
-  /* line 186, ../sass/home.scss */
+  /* line 191, ../sass/home.scss */
   #services dl {
     width: 100%;
     float: none;
   }
-  /* line 190, ../sass/home.scss */
+  /* line 195, ../sass/home.scss */
   #services dl + dl {
     margin-top: 4em;
   }
 
-  /* line 197, ../sass/home.scss */
+  /* line 202, ../sass/home.scss */
   #contact form {
     width: 100%;
   }
-  /* line 201, ../sass/home.scss */
+  /* line 206, ../sass/home.scss */
   #contact .contact-text {
     float: none;
     width: 100%;
@@ -327,12 +332,12 @@ section {
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 212, ../sass/home.scss */
+  /* line 217, ../sass/home.scss */
   #intro {
     font-size: 2em;
   }
 
-  /* line 218, ../sass/home.scss */
+  /* line 223, ../sass/home.scss */
   #about .about-bios dl {
     float: none;
     width: 100%;
