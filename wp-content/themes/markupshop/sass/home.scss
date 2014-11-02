@@ -1,0 +1,146 @@
+#intro{
+	background: url('../assets/images/raleigh-orange.jpg') no-repeat center;
+	font-weight: 100;
+	font-size: 3em;
+	color: #fff;
+	line-height: 1.4em;
+}
+
+#about{
+	padding-top: 6em;
+	padding-bottom: 2em;
+	@include clearfix;
+	
+	.about-text{
+		float: left;
+		width: 45%;
+		margin-right: 16.333%;
+		line-height: 1.4em;
+		font-family: "freight-display-pro";
+		font-size: 1.2em;
+
+		p + p{
+			margin-top: 2em;
+		}
+	}
+	
+	dl{
+		margin-bottom: 4em;
+		padding-top: 1em;
+		
+		img{
+			width: 12.4166667%;
+			margin-right: 2.91667%;
+			float: left;
+			margin-top: -1em;
+		}
+		
+		dt{
+			font-weight: 600;
+		}
+		
+		.job-title{
+			color: #aaa;
+			font-weight: 100;
+			font-size: .8em;
+			margin: .25em 0 1em;
+		}
+		
+		.skill{
+			font-size: .8em;
+			line-height: 1.2em;
+		}
+	}
+	
+	
+}
+
+#services{
+	background: #e1e6e8;
+	padding-top: 6em;
+	padding-bottom: 6em;
+	@include clearfix;
+	
+	dl{
+		width: 28%;
+		margin: 0 2.5%;
+		float: left;
+		padding-top: 5.5em;
+		text-align: center;
+		
+		dt{
+			font-weight: 600;
+			margin-bottom: 1em;
+		}
+		
+		dd{
+			line-height: 1.4em;
+			font-size: 1em;
+			font-family: "freight-display-pro";
+		}
+	}
+	
+	.development{
+		background: url('../assets/images/home/development.png') no-repeat center 10px;
+	}
+	
+	.support{
+		background: url('../assets/images/home/support.png') no-repeat center 12px;
+	}
+	
+	.customization{
+		background: url('../assets/images/home/customization.png') no-repeat top center;
+	}
+}
+
+#contact{
+	background: #76bee4;
+	padding-top: 6em;
+	padding-bottom: 6em;
+	@include clearfix;
+	
+	.contact-text{
+		float: right;
+		width: 38.75%;
+		color: #fff;
+		
+		h3{
+			font-weight: 600;
+			font-size: 1.4em;
+			margin-bottom: 1em;
+		}
+		
+		p{
+			font-family: "freight-display-pro";
+			line-height: 1.4em;
+			font-size: 1.2em;
+		}
+	}
+	
+	form{
+		width: 45%;
+		
+		input, textarea{
+			width: 100%;
+			border: none;
+			margin-bottom: 1em;
+			padding: 1em;
+			@include box-sizing(border-box);
+			font-size: .8em;
+		}
+		
+		textarea{
+			height: 8em;
+			resize: none;
+		}
+		
+		input[type="submit"]{
+			background: #edb665;
+			text-transform: uppercase;
+			padding: .5em;
+			width: 200px;
+			font-size: 1em;
+		}
+	}
+}
+

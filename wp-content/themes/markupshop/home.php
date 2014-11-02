@@ -17,17 +17,19 @@
 	<div class="about-bios">
 		
 		<dl>
+			<img src="<?php echo get_template_directory_uri();?>/assets/images/mobley_circle.jpg" />
 			<dt class="name">Josh Mobley</dt>
 			<dd class="job-title">Managing Partner</dd>
-			<dd>Front-end Development</dd>
-			<dd>User Experience Design</dd>
+			<dd class="skill">Front-end Development</dd>
+			<dd class="skill">User Experience Design</dd>
 		</dl>
 		
 		<dl>
+			<img src="<?php echo get_template_directory_uri();?>/assets/images/rucker_circle.jpg" />
 			<dt class="name">Josh Rucker</dt>
 			<dd class="job-title">Partner</dd>
-			<dd>Full-stack Development</dd>
-			<dd>Content Direction</dd>
+			<dd class="skill">Full-stack Development</dd>
+			<dd class="skill">Content Direction</dd>
 		</dl>
 		
 	</div>
@@ -38,38 +40,32 @@
 	
 	<h3 class="access">Services</h3>
 
-	<dl>
+	<dl class="development">
 		<dt>Front-End Development</dt>
-		<dd>Our bread and butter is custom build sites that convert on your goals.</dd>
+		<dd>Our bread and butter is custom built sites that convert on your goals.</dd>
 	</dl>
 	
-	<dl>
-		<dt>Design</dt>
-		<dd>If your project requires a mroe full-service approach, we've got you covered.</dd>
-	</dl>
-	
-	<dl>
-		<dt>Content Strategy</dt>
-		<dd>Organizing your content is the most important part of any project.</dd>
-	</dl>
-	
-	<dl>
+	<dl class="customization">
 		<dt>CMS Customization</dt>
 		<dd>Have a CMS that just needs a little work? We're here for you, too.</dd>
 	</dl>
 	
-	<dl>
+	<dl class="support">
 		<dt>Ongoing Support</dt>
-		<dd>We can be your retainer-free go-to support team.</dd>
+		<dd>We can also be your retainer-free support team.</dd>
 	</dl>
 	
 </section><!--#services-->
 
 <section id="contact">
 	
-	<h3>Get In Touch</h3>
+	<div class="contact-text">
 	
-	<p>If you've got a project ready to start, or are just looking for someone to be your "go-to" developers in the future, we'd love to hear from you. We love talking with others about their projects and helping folks map out the way forward.</p>
+		<h3>Get In Touch</h3>
+	
+		<p>If you've got a project ready to start, or are just looking for someone to be your "go-to" developers in the future, we'd love to hear from you. We love talking with others about their projects and helping folks map out the way forward.</p>
+		
+	</div>
 	
 	<form>
 		<fieldset>
@@ -82,4 +78,6 @@
 	</form>
 	
 </section>
+
+<?php get_footer(); ?>
 	

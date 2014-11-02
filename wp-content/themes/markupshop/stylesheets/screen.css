@@ -1,0 +1,272 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/global.scss */
+.page-title {
+  text-indent: -9999em;
+  background: url("../assets/images/logo-stacked.png") no-repeat center center;
+  margin: 2em auto;
+  width: 200px;
+  height: 100px;
+}
+
+/* line 9, ../sass/global.scss */
+footer {
+  padding: 2em 12.5%;
+}
+/* line 11, ../sass/global.scss */
+footer dl {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 14, ../sass/global.scss */
+footer dl dt {
+  text-indent: -9999em;
+  background: url("../assets/images/logo-stacked-small.png") no-repeat center center;
+  text-align: center;
+  height: 50px;
+  width: 79px;
+  float: left;
+}
+/* line 22, ../sass/global.scss */
+footer dl dd {
+  float: right;
+  background: #ccc;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-indent: -9999em;
+  display: inline-block;
+}
+
+/* line 35, ../sass/global.scss */
+section {
+  padding: 2em 12.5%;
+  font-family: 'proxima-nova', helvetica, arial;
+  font-size: 1.2em;
+}
+
+/* line 41, ../sass/global.scss */
+.access {
+  display: none;
+}
+
+/* line 1, ../sass/home.scss */
+#intro {
+  background: url("../assets/images/raleigh-orange.jpg") no-repeat center;
+  font-weight: 100;
+  font-size: 3em;
+  color: #fff;
+  line-height: 1.4em;
+}
+
+/* line 9, ../sass/home.scss */
+#about {
+  padding-top: 6em;
+  padding-bottom: 2em;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 14, ../sass/home.scss */
+#about .about-text {
+  float: left;
+  width: 45%;
+  margin-right: 16.333%;
+  line-height: 1.4em;
+  font-family: "freight-display-pro";
+  font-size: 1.2em;
+}
+/* line 22, ../sass/home.scss */
+#about .about-text p + p {
+  margin-top: 2em;
+}
+/* line 27, ../sass/home.scss */
+#about dl {
+  margin-bottom: 4em;
+  padding-top: 1em;
+}
+/* line 31, ../sass/home.scss */
+#about dl img {
+  width: 12.4166667%;
+  margin-right: 2.91667%;
+  float: left;
+  margin-top: -1em;
+}
+/* line 38, ../sass/home.scss */
+#about dl dt {
+  font-weight: 600;
+}
+/* line 42, ../sass/home.scss */
+#about dl .job-title {
+  color: #aaa;
+  font-weight: 100;
+  font-size: .8em;
+  margin: .25em 0 1em;
+}
+/* line 49, ../sass/home.scss */
+#about dl .skill {
+  font-size: .8em;
+  line-height: 1.2em;
+}
+
+/* line 58, ../sass/home.scss */
+#services {
+  background: #e1e6e8;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 64, ../sass/home.scss */
+#services dl {
+  width: 28%;
+  margin: 0 2.5%;
+  float: left;
+  padding-top: 5.5em;
+  text-align: center;
+}
+/* line 71, ../sass/home.scss */
+#services dl dt {
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+/* line 76, ../sass/home.scss */
+#services dl dd {
+  line-height: 1.4em;
+  font-size: 1em;
+  font-family: "freight-display-pro";
+}
+/* line 83, ../sass/home.scss */
+#services .development {
+  background: url("../assets/images/home/development.png") no-repeat center 10px;
+}
+/* line 87, ../sass/home.scss */
+#services .support {
+  background: url("../assets/images/home/support.png") no-repeat center 12px;
+}
+/* line 91, ../sass/home.scss */
+#services .customization {
+  background: url("../assets/images/home/customization.png") no-repeat top center;
+}
+
+/* line 96, ../sass/home.scss */
+#contact {
+  background: #76bee4;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 102, ../sass/home.scss */
+#contact .contact-text {
+  float: right;
+  width: 38.75%;
+  color: #fff;
+}
+/* line 107, ../sass/home.scss */
+#contact .contact-text h3 {
+  font-weight: 600;
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+/* line 113, ../sass/home.scss */
+#contact .contact-text p {
+  font-family: "freight-display-pro";
+  line-height: 1.4em;
+  font-size: 1.2em;
+}
+/* line 120, ../sass/home.scss */
+#contact form {
+  width: 45%;
+}
+/* line 123, ../sass/home.scss */
+#contact form input, #contact form textarea {
+  width: 100%;
+  border: none;
+  margin-bottom: 1em;
+  padding: 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: .8em;
+}
+/* line 132, ../sass/home.scss */
+#contact form textarea {
+  height: 8em;
+  resize: none;
+}
+/* line 137, ../sass/home.scss */
+#contact form input[type="submit"] {
+  background: #edb665;
+  text-transform: uppercase;
+  padding: .5em;
+  width: 200px;
+  font-size: 1em;
+}
