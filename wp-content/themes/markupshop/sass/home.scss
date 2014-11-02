@@ -1,9 +1,12 @@
 #intro{
 	background: url('../assets/images/raleigh-orange.jpg') no-repeat center;
 	font-weight: 100;
+	background-size: cover;	
 	font-size: 3em;
 	color: #fff;
 	line-height: 1.4em;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
 }
 
 #about{
@@ -58,7 +61,8 @@
 #services{
 	background: #e1e6e8;
 	padding-top: 6em;
-	padding-bottom: 6em;
+	padding-bottom: 7em;
+	border-top: 1px solid #000;
 	@include clearfix;
 	
 	dl{
@@ -96,7 +100,7 @@
 #contact{
 	background: #76bee4;
 	padding-top: 6em;
-	padding-bottom: 6em;
+	padding-bottom: 5em;
 	@include clearfix;
 	
 	.contact-text{

@@ -8,16 +8,18 @@
 
 footer{ 
 	padding: 2em 12.5%;
+	border-top: 1px solid #333;
+	background: #666;
+	
 	dl{
 		@include clearfix;
 	
 		dt{
-			text-indent: -9999em;
-			background: url('../assets/images/logo-stacked-small.png') no-repeat center center;
-			text-align: center;
-			height: 50px;
-			width: 79px;
 			float: left;
+			font-family: "proxima-nova";
+			color: #fff;
+			font-weight: 100;
+			padding-top: 10px;
 		}
 		dd{
 			float: right;
@@ -25,7 +27,6 @@ footer{
 			width: 30px;
 			height: 30px;
 			margin-left: 10px;
-			margin-top: 10px;
 			text-indent: -9999em;
 			display: inline-block;
 		}
