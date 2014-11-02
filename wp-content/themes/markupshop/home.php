@@ -9,9 +9,9 @@
 	<h3 class="access">About Us</h3>
 	
 	<div class="about-text">
-		<p>Organizations and their clients are desperate for reliable development when they need it &ndash; and we're here to help.</p>
+		<p>Organizations and their clients are desperate for reliable development when they need it &mdash; and we're here to help.</p>
 		<p>We believe that well-crafted development is necessary to produce quality products. We're obsessive about delivering high-quality code and doing it on time.</p>
-		<p>We're not interested in being the biggest agency around &ndash; but we do aspire to be the most reliable.</p>
+		<p>We're not interested in being the biggest agency around &mdash; just a valuable partner for the folks we work with.</p>
 	</div>
 	
 	<div class="about-bios">
