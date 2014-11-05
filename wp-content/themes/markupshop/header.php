@@ -18,9 +18,3 @@
 	
 	<body>
 		
-		<header>
-			
-			<h1 class="page-title">MarkupShop</h1>
-			
-		</header>
-		

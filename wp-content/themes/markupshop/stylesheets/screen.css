@@ -71,23 +71,34 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .page-title {
   text-indent: -9999em;
   background: url("../assets/images/logo-stacked.png") no-repeat center center;
-  margin: 2em auto;
+  margin: 0 auto 2em;
   width: 200px;
   height: 100px;
 }
 
 /* line 9, ../sass/global.scss */
+.section-header {
+  margin-bottom: 2em;
+  font-size: 1em;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  opacity: .6;
+  text-align: center;
+}
+
+/* line 20, ../sass/global.scss */
 footer {
   padding: 2em 12.5%;
   border-top: 1px solid #333;
   background: #666;
 }
-/* line 14, ../sass/global.scss */
+/* line 25, ../sass/global.scss */
 footer dl {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 17, ../sass/global.scss */
+/* line 28, ../sass/global.scss */
 footer dl dt {
   float: left;
   font-family: "proxima-nova";
@@ -95,7 +106,7 @@ footer dl dt {
   font-weight: 100;
   padding-top: 10px;
 }
-/* line 24, ../sass/global.scss */
+/* line 35, ../sass/global.scss */
 footer dl dd {
   float: right;
   background: #ccc;
@@ -106,14 +117,14 @@ footer dl dd {
   display: inline-block;
 }
 
-/* line 36, ../sass/global.scss */
+/* line 47, ../sass/global.scss */
 section {
-  padding: 2em 12.5%;
+  padding: 2em 15%;
   font-family: 'proxima-nova', helvetica, arial;
   font-size: 1.2em;
 }
 
-/* line 42, ../sass/global.scss */
+/* line 53, ../sass/global.scss */
 .access {
   display: none;
 }
@@ -121,78 +132,73 @@ section {
 /* line 1, ../sass/home.scss */
 #intro {
   background: url("../assets/images/raleigh-orange.jpg") no-repeat center;
-  font-weight: 100;
   background-size: cover;
   font-size: 3em;
-  color: #fff;
   line-height: 1.4em;
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #ddd;
+  font-weight: 300;
 }
 
-/* line 12, ../sass/home.scss */
+/* line 10, ../sass/home.scss */
 #about {
   padding-top: 6em;
   padding-bottom: 6em;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 17, ../sass/home.scss */
+/* line 15, ../sass/home.scss */
 #about .about-text {
-  float: left;
-  width: 45%;
   line-height: 1.4em;
-  font-family: "freight-display-pro";
   font-size: 1.2em;
+  font-weight: 200;
+  margin: 0 auto;
 }
-/* line 24, ../sass/home.scss */
+/* line 21, ../sass/home.scss */
 #about .about-text p + p {
   margin-top: 2em;
 }
-/* line 29, ../sass/home.scss */
-#about .about-bios {
-  width: 38.75%;
-  float: right;
-}
-/* line 34, ../sass/home.scss */
+/* line 26, ../sass/home.scss */
 #about dl {
-  margin-bottom: 4em;
+  margin-top: 6em;
   padding-top: 1em;
+  float: left;
+  width: 50%;
 }
-/* line 38, ../sass/home.scss */
+/* line 32, ../sass/home.scss */
 #about dl img {
   width: 33%;
   margin-right: 5%;
   float: left;
   margin-top: -1em;
 }
-/* line 45, ../sass/home.scss */
+/* line 39, ../sass/home.scss */
 #about dl dt {
-  font-weight: 600;
+  font-weight: 400;
 }
-/* line 49, ../sass/home.scss */
+/* line 43, ../sass/home.scss */
 #about dl .job-title {
   color: #aaa;
   font-weight: 100;
   font-size: .8em;
   margin: .25em 0 1em;
 }
-/* line 56, ../sass/home.scss */
+/* line 50, ../sass/home.scss */
 #about dl .skill {
   font-size: .8em;
   line-height: 1.2em;
+  font-weight: 200;
 }
 
-/* line 65, ../sass/home.scss */
+/* line 60, ../sass/home.scss */
 #services {
-  background: #e1e6e8;
+  background: #f3f3f3;
   padding-top: 6em;
   padding-bottom: 7em;
-  border-top: 1px solid #000;
+  border-top: 1px solid #ddd;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 72, ../sass/home.scss */
+/* line 67, ../sass/home.scss */
 #services dl {
   width: 28%;
   margin: 0 2.5%;
@@ -200,31 +206,31 @@ section {
   padding-top: 5.5em;
   text-align: center;
 }
-/* line 79, ../sass/home.scss */
+/* line 74, ../sass/home.scss */
 #services dl dt {
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 1em;
 }
-/* line 84, ../sass/home.scss */
+/* line 79, ../sass/home.scss */
 #services dl dd {
   line-height: 1.4em;
   font-size: 1em;
-  font-family: "freight-display-pro";
+  font-weight: 200;
 }
-/* line 91, ../sass/home.scss */
+/* line 86, ../sass/home.scss */
 #services .development {
   background: url("../assets/images/home/development.png") no-repeat center 10px;
 }
-/* line 95, ../sass/home.scss */
+/* line 90, ../sass/home.scss */
 #services .support {
   background: url("../assets/images/home/support.png") no-repeat center 12px;
 }
-/* line 99, ../sass/home.scss */
+/* line 94, ../sass/home.scss */
 #services .customization {
   background: url("../assets/images/home/customization.png") no-repeat top center;
 }
 
-/* line 104, ../sass/home.scss */
+/* line 99, ../sass/home.scss */
 #contact {
   background: #76bee4;
   padding-top: 6em;
@@ -232,29 +238,23 @@ section {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 110, ../sass/home.scss */
+/* line 105, ../sass/home.scss */
 #contact .contact-text {
   float: right;
   width: 38.75%;
   color: #fff;
 }
-/* line 115, ../sass/home.scss */
-#contact .contact-text h3 {
-  font-weight: 600;
-  font-size: 1.4em;
-  margin-bottom: 1em;
-}
-/* line 121, ../sass/home.scss */
+/* line 110, ../sass/home.scss */
 #contact .contact-text p {
-  font-family: "freight-display-pro";
   line-height: 1.4em;
-  font-size: 1.2em;
+  font-size: 1.1em;
+  font-weight: 200;
 }
-/* line 128, ../sass/home.scss */
+/* line 117, ../sass/home.scss */
 #contact form {
   width: 45%;
 }
-/* line 131, ../sass/home.scss */
+/* line 120, ../sass/home.scss */
 #contact form input, #contact form textarea {
   width: 100%;
   border: none;
@@ -264,13 +264,14 @@ section {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   font-size: .8em;
+  font-weight: 100;
 }
-/* line 140, ../sass/home.scss */
+/* line 130, ../sass/home.scss */
 #contact form textarea {
   height: 8em;
   resize: none;
 }
-/* line 145, ../sass/home.scss */
+/* line 135, ../sass/home.scss */
 #contact form input[type="submit"] {
   background: #edb665;
   text-transform: uppercase;
@@ -280,51 +281,51 @@ section {
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 158, ../sass/home.scss */
+  /* line 148, ../sass/home.scss */
   #about .about-text {
     float: none;
     width: 100%;
     text-align: center;
   }
-  /* line 164, ../sass/home.scss */
+  /* line 154, ../sass/home.scss */
   #about .about-bios {
     margin-top: 2em;
     float: none;
     width: 100%;
   }
-  /* line 169, ../sass/home.scss */
+  /* line 159, ../sass/home.scss */
   #about .about-bios dl {
     width: 50%;
     text-align: center;
     float: left;
   }
-  /* line 174, ../sass/home.scss */
+  /* line 164, ../sass/home.scss */
   #about .about-bios dl img {
     margin: 0 0 1em;
     float: none;
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 186, ../sass/home.scss */
+  /* line 176, ../sass/home.scss */
   #intro {
     font-size: 2.5em;
   }
 
-  /* line 191, ../sass/home.scss */
+  /* line 181, ../sass/home.scss */
   #services dl {
     width: 100%;
     float: none;
   }
-  /* line 195, ../sass/home.scss */
+  /* line 185, ../sass/home.scss */
   #services dl + dl {
     margin-top: 4em;
   }
 
-  /* line 202, ../sass/home.scss */
+  /* line 192, ../sass/home.scss */
   #contact form {
     width: 100%;
   }
-  /* line 206, ../sass/home.scss */
+  /* line 196, ../sass/home.scss */
   #contact .contact-text {
     float: none;
     width: 100%;
@@ -332,12 +333,12 @@ section {
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 217, ../sass/home.scss */
+  /* line 207, ../sass/home.scss */
   #intro {
     font-size: 2em;
   }
 
-  /* line 223, ../sass/home.scss */
+  /* line 213, ../sass/home.scss */
   #about .about-bios dl {
     float: none;
     width: 100%;

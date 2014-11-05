@@ -1,12 +1,14 @@
 <?php get_header(); ?>
 
 <section id="intro">
+	
+	<h1 class="page-title">MarkupShop</h1>
 	<h2>A small development agency focused on helping people build the things they need.</h2>
 </section>
 
 <section id="about">
 	
-	<h3 class="access">About Us</h3>
+	<h3 class="section-header">About Us</h3>
 	
 	<div class="about-text">
 		<p>Organizations and their clients are desperate for reliable development when they need it &mdash; and we're here to help.</p>
@@ -38,7 +40,7 @@
 	
 <section id="services">
 	
-	<h3 class="access">Services</h3>
+	<h3 class="section-header">Services</h3>
 
 	<dl class="development">
 		<dt>Front-End Development</dt>
@@ -61,7 +63,7 @@
 	
 	<div class="contact-text">
 	
-		<h3>Get In Touch</h3>
+		<h3 class="section-header">Get In Touch</h3>
 	
 		<p>If you've got a project ready to start, or are just looking for someone to be your "go-to" developers in the future, we'd love to hear from you. We love talking with others about their projects and helping folks map out the way forward.</p>
 		

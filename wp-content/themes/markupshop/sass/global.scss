@@ -1,9 +1,20 @@
 .page-title{
 	text-indent: -9999em;
 	background: url('../assets/images/logo-stacked.png') no-repeat center center;
-	margin: 2em auto;
+	margin: 0 auto 2em;
 	width: 200px;
 	height: 100px;
+}
+
+.section-header{
+	margin-bottom: 2em;
+	font-size: 1em;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	opacity: .6;
+	text-align: center;
+	
 }
 
 footer{ 
@@ -34,7 +45,7 @@ footer{
 }
 
 section {
-  	padding: 2em 12.5%;
+  	padding: 2em 15%;
 	font-family: 'proxima-nova', helvetica, arial;
 	font-size: 1.2em;
 }

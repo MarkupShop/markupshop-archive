@@ -1,12 +1,10 @@
 #intro{
 	background: url('../assets/images/raleigh-orange.jpg') no-repeat center;
-	font-weight: 100;
 	background-size: cover;	
 	font-size: 3em;
-	color: #fff;
 	line-height: 1.4em;
-	border-top: 1px solid #333;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid #ddd;
+	font-weight: 300;
 }
 
 #about{
@@ -15,25 +13,21 @@
 	@include clearfix;
 	
 	.about-text{
-		float: left;
-		width: 45%;
 		line-height: 1.4em;
-		font-family: "freight-display-pro";
 		font-size: 1.2em;
+		font-weight: 200;
+		margin: 0 auto;
 
 		p + p{
 			margin-top: 2em;
 		}
 	}
 	
-	.about-bios{
-		width: 38.75%;
-		float: right;
-	}
-	
 	dl{
-		margin-bottom: 4em;
+		margin-top: 6em;
 		padding-top: 1em;
+		float: left;
+		width: 50%;
 		
 		img{
 			width: 33%;
@@ -43,7 +37,7 @@
 		}
 		
 		dt{
-			font-weight: 600;
+			font-weight: 400;
 		}
 		
 		.job-title{
@@ -56,6 +50,7 @@
 		.skill{
 			font-size: .8em;
 			line-height: 1.2em;
+			font-weight: 200;
 		}
 	}
 	
@@ -63,10 +58,10 @@
 }
 
 #services{
-	background: #e1e6e8;
+	background: #f3f3f3;
 	padding-top: 6em;
 	padding-bottom: 7em;
-	border-top: 1px solid #000;
+	border-top: 1px solid #ddd;
 	@include clearfix;
 	
 	dl{
@@ -77,14 +72,14 @@
 		text-align: center;
 		
 		dt{
-			font-weight: 600;
+			font-weight: 400;
 			margin-bottom: 1em;
 		}
 		
 		dd{
 			line-height: 1.4em;
 			font-size: 1em;
-			font-family: "freight-display-pro";
+			font-weight: 200;
 		}
 	}
 	
@@ -112,16 +107,10 @@
 		width: 38.75%;
 		color: #fff;
 		
-		h3{
-			font-weight: 600;
-			font-size: 1.4em;
-			margin-bottom: 1em;
-		}
-		
 		p{
-			font-family: "freight-display-pro";
 			line-height: 1.4em;
-			font-size: 1.2em;
+			font-size: 1.1em;
+			font-weight: 200;
 		}
 	}
 	
@@ -135,6 +124,7 @@
 			padding: 1em;
 			@include box-sizing(border-box);
 			font-size: .8em;
+			font-weight: 100;
 		}
 		
 		textarea{
