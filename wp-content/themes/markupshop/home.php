@@ -69,15 +69,7 @@
 		
 	</div>
 	
-	<form>
-		<fieldset>
-			<input type="text" name="name" placeholder="Name" />
-			<input type="email" name="email" placeholder="Email" />
-			<input type="text" name="organization" placeholder="Organization" />
-			<textarea name="summary" placeholder="Summary of Project"></textarea>
-			<input type="submit" name="submit" value="Submit" />
-		</fieldset>
-	</form>
+	<?php echo do_shortcode('[contact-form-7 id="4" title="Contact Form Homepage"]'); ?>
 	
 </section>
 
