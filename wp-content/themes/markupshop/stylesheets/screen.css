@@ -79,26 +79,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 9, ../sass/global.scss */
 .section-header {
   margin-bottom: 2em;
-  font-size: 1em;
+  font-size: 1.4em;
   font-weight: 100;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   opacity: .6;
   text-align: center;
 }
+/* line 18, ../sass/global.scss */
+.section-header:after {
+  content: '';
+  height: 1px;
+  width: 200px;
+  margin: .5em auto 0;
+  background: #999;
+  display: block;
+}
 
-/* line 20, ../sass/global.scss */
+/* line 29, ../sass/global.scss */
 footer {
   padding: 2em 12.5%;
   border-top: 1px solid #333;
   background: #666;
 }
-/* line 25, ../sass/global.scss */
+/* line 34, ../sass/global.scss */
 footer dl {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 28, ../sass/global.scss */
+/* line 37, ../sass/global.scss */
 footer dl dt {
   float: left;
   font-family: "proxima-nova";
@@ -106,7 +115,7 @@ footer dl dt {
   font-weight: 100;
   padding-top: 10px;
 }
-/* line 35, ../sass/global.scss */
+/* line 44, ../sass/global.scss */
 footer dl dd {
   float: right;
   background: #ccc;
@@ -115,16 +124,25 @@ footer dl dd {
   margin-left: 10px;
   text-indent: -9999em;
   display: inline-block;
+  background: url("../assets/images/social-sprite.png") no-repeat 0 0;
+}
+/* line 54, ../sass/global.scss */
+footer dl dd.facebook {
+  background-position: -30px 0;
+}
+/* line 55, ../sass/global.scss */
+footer dl dd.skype {
+  background-position: -60px 0;
 }
 
-/* line 47, ../sass/global.scss */
+/* line 60, ../sass/global.scss */
 section {
   padding: 2em 15%;
   font-family: 'proxima-nova', helvetica, arial;
   font-size: 1.2em;
 }
 
-/* line 53, ../sass/global.scss */
+/* line 66, ../sass/global.scss */
 .access {
   display: none;
 }
@@ -137,68 +155,105 @@ section {
   line-height: 1.4em;
   border-bottom: 1px solid #ddd;
   font-weight: 300;
+  position: relative;
 }
 
-/* line 10, ../sass/home.scss */
+/* line 11, ../sass/home.scss */
 #about {
   padding-top: 6em;
   padding-bottom: 6em;
   overflow: hidden;
   *zoom: 1;
+  background: url("http://subtlepatterns.com/patterns/subtle_dots.png") repeat 0 0;
 }
-/* line 15, ../sass/home.scss */
+/* line 17, ../sass/home.scss */
 #about .about-text {
   line-height: 1.4em;
   font-size: 1.2em;
-  font-weight: 200;
+  font-weight: 300;
   margin: 0 auto;
 }
-/* line 21, ../sass/home.scss */
+/* line 23, ../sass/home.scss */
 #about .about-text p + p {
   margin-top: 2em;
 }
-/* line 26, ../sass/home.scss */
-#about dl {
-  margin-top: 6em;
-  padding-top: 1em;
-  float: left;
-  width: 50%;
+
+/* line 29, ../sass/home.scss */
+#bios {
+  padding: 0;
 }
 /* line 32, ../sass/home.scss */
-#about dl img {
+#bios dl {
+  padding: 15% 0;
+  float: left;
+  width: 50%;
+  border-top: 10px solid #333;
+  border-bottom: 10px solid #333;
+}
+/* line 41, ../sass/home.scss */
+#bios dl.rucker {
+  background: url("../assets/images/rucker-large.jpg") no-repeat 0 0;
+  background-size: cover;
+  position: relative;
+}
+/* line 45, ../sass/home.scss */
+#bios dl.rucker:before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 10px;
+  position: absolute;
+  left: -5px;
+  top: 0;
+  background: #333;
+}
+/* line 57, ../sass/home.scss */
+#bios dl.mobley {
+  background: url("../assets/images/mobley-large.jpg") no-repeat 0 0;
+  background-size: cover;
+}
+/* line 59, ../sass/home.scss */
+#bios dl img {
   width: 33%;
   margin-right: 5%;
   float: left;
   margin-top: -1em;
 }
-/* line 39, ../sass/home.scss */
-#about dl dt {
+/* line 66, ../sass/home.scss */
+#bios dl dt {
   font-weight: 400;
 }
-/* line 43, ../sass/home.scss */
-#about dl .job-title {
-  color: #aaa;
-  font-weight: 100;
-  font-size: .8em;
-  margin: .25em 0 1em;
+/* line 70, ../sass/home.scss */
+#bios dl dt, #bios dl dd {
+  margin-left: 65%;
+  color: #fff;
 }
-/* line 50, ../sass/home.scss */
-#about dl .skill {
+/* line 75, ../sass/home.scss */
+#bios dl .job-title {
+  color: #ddd;
+  font-weight: 100;
+  margin-top: .5em;
+  margin-bottom: .5em;
   font-size: .8em;
-  line-height: 1.2em;
+}
+/* line 83, ../sass/home.scss */
+#bios dl .skill {
+  font-size: .8em;
+  line-height: 1.4em;
   font-weight: 200;
+  color: #aaa;
 }
 
-/* line 60, ../sass/home.scss */
+/* line 94, ../sass/home.scss */
 #services {
-  background: #f3f3f3;
+  background: url(http://subtlepatterns.com/patterns/linen.png);
   padding-top: 6em;
   padding-bottom: 7em;
   border-top: 1px solid #ddd;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 67, ../sass/home.scss */
+/* line 101, ../sass/home.scss */
 #services dl {
   width: 28%;
   margin: 0 2.5%;
@@ -206,31 +261,31 @@ section {
   padding-top: 5.5em;
   text-align: center;
 }
-/* line 74, ../sass/home.scss */
+/* line 108, ../sass/home.scss */
 #services dl dt {
   font-weight: 400;
   margin-bottom: 1em;
 }
-/* line 79, ../sass/home.scss */
+/* line 113, ../sass/home.scss */
 #services dl dd {
   line-height: 1.4em;
   font-size: 1em;
-  font-weight: 200;
+  font-weight: 300;
 }
-/* line 86, ../sass/home.scss */
+/* line 120, ../sass/home.scss */
 #services .development {
   background: url("../assets/images/home/development.png") no-repeat center 10px;
 }
-/* line 90, ../sass/home.scss */
+/* line 124, ../sass/home.scss */
 #services .support {
   background: url("../assets/images/home/support.png") no-repeat center 12px;
 }
-/* line 94, ../sass/home.scss */
+/* line 128, ../sass/home.scss */
 #services .customization {
   background: url("../assets/images/home/customization.png") no-repeat top center;
 }
 
-/* line 99, ../sass/home.scss */
+/* line 133, ../sass/home.scss */
 #contact {
   background: #76bee4;
   padding-top: 6em;
@@ -238,23 +293,32 @@ section {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 105, ../sass/home.scss */
+/* line 139, ../sass/home.scss */
+#contact .section-header {
+  text-align: left;
+}
+/* line 142, ../sass/home.scss */
+#contact .section-header:after {
+  background: #ddd;
+  margin: .5em 0;
+  width: 250px;
+}
+/* line 149, ../sass/home.scss */
 #contact .contact-text {
   float: right;
   width: 38.75%;
   color: #fff;
 }
-/* line 110, ../sass/home.scss */
+/* line 154, ../sass/home.scss */
 #contact .contact-text p {
   line-height: 1.4em;
-  font-size: 1.1em;
-  font-weight: 200;
+  font-weight: 300;
 }
-/* line 117, ../sass/home.scss */
+/* line 160, ../sass/home.scss */
 #contact form {
   width: 45%;
 }
-/* line 120, ../sass/home.scss */
+/* line 163, ../sass/home.scss */
 #contact form input, #contact form textarea {
   width: 100%;
   border: none;
@@ -263,69 +327,103 @@ section {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: .8em;
+  font-size: .75em;
+  font-weight: 100;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  font-family: "proxima-nova";
+}
+/* line 176, ../sass/home.scss */
+#contact form label {
+  color: #fff;
   font-weight: 100;
 }
-/* line 130, ../sass/home.scss */
+/* line 181, ../sass/home.scss */
 #contact form textarea {
   height: 8em;
   resize: none;
 }
-/* line 135, ../sass/home.scss */
+/* line 186, ../sass/home.scss */
 #contact form input[type="submit"] {
-  background: #edb665;
+  background: #4098c6;
+  color: #fff;
   text-transform: uppercase;
   padding: .5em;
   width: 200px;
+  font-weight: 100;
+  letter-spacing: 3px;
   font-size: 1em;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+/* line 198, ../sass/home.scss */
+#contact form input[type="submit"]:hover {
+  color: #edb665;
+  background: #4c9eca;
+}
+/* line 205, ../sass/home.scss */
+#contact .screen-reader-response {
+  visibility: hidden;
+  height: 0;
+}
+/* line 210, ../sass/home.scss */
+#contact [role="alert"] {
+  font-size: .9em;
+  margin-bottom: 1em;
+  display: block;
+  line-height: 1.4em;
+  color: #2b6c8f;
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 148, ../sass/home.scss */
+  /* line 222, ../sass/home.scss */
   #about .about-text {
     float: none;
     width: 100%;
     text-align: center;
   }
-  /* line 154, ../sass/home.scss */
+  /* line 228, ../sass/home.scss */
   #about .about-bios {
     margin-top: 2em;
     float: none;
     width: 100%;
   }
-  /* line 159, ../sass/home.scss */
+  /* line 233, ../sass/home.scss */
   #about .about-bios dl {
     width: 50%;
     text-align: center;
     float: left;
   }
-  /* line 164, ../sass/home.scss */
+  /* line 238, ../sass/home.scss */
   #about .about-bios dl img {
     margin: 0 0 1em;
     float: none;
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 176, ../sass/home.scss */
+  /* line 250, ../sass/home.scss */
   #intro {
     font-size: 2.5em;
   }
 
-  /* line 181, ../sass/home.scss */
+  /* line 255, ../sass/home.scss */
   #services dl {
     width: 100%;
     float: none;
   }
-  /* line 185, ../sass/home.scss */
+  /* line 259, ../sass/home.scss */
   #services dl + dl {
     margin-top: 4em;
   }
 
-  /* line 192, ../sass/home.scss */
+  /* line 266, ../sass/home.scss */
   #contact form {
     width: 100%;
   }
-  /* line 196, ../sass/home.scss */
+  /* line 270, ../sass/home.scss */
   #contact .contact-text {
     float: none;
     width: 100%;
@@ -333,12 +431,12 @@ section {
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 207, ../sass/home.scss */
+  /* line 281, ../sass/home.scss */
   #intro {
     font-size: 2em;
   }
 
-  /* line 213, ../sass/home.scss */
+  /* line 287, ../sass/home.scss */
   #about .about-bios dl {
     float: none;
     width: 100%;

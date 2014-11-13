@@ -4,6 +4,7 @@
 	
 	<h1 class="page-title">MarkupShop</h1>
 	<h2>A small development agency focused on helping people build the things they need.</h2>
+	
 </section>
 
 <section id="about">
@@ -16,27 +17,27 @@
 		<p>We're not interested in being the biggest agency around &mdash; just a valuable partner for the folks we work with.</p>
 	</div>
 	
-	<div class="about-bios">
-		
-		<dl>
-			<img src="<?php echo get_template_directory_uri();?>/assets/images/mobley_circle.jpg" />
-			<dt class="name">Josh Mobley</dt>
-			<dd class="job-title">Managing Partner</dd>
-			<dd class="skill">Front-end Development</dd>
-			<dd class="skill">User Experience Design</dd>
-		</dl>
-		
-		<dl>
-			<img src="<?php echo get_template_directory_uri();?>/assets/images/rucker_circle.jpg" />
-			<dt class="name">Josh Rucker</dt>
-			<dd class="job-title">Partner</dd>
-			<dd class="skill">Full-stack Development</dd>
-			<dd class="skill">Content Direction</dd>
-		</dl>
-		
-	</div>
-	
 </section><!--#about-->
+
+
+
+<section id="bios">
+	
+	<dl class="mobley">
+		<dt class="name">Josh Mobley</dt>
+		<dd class="job-title">Managing Partner</dd>
+		<dd class="skill">Front-end Development</dd>
+		<dd class="skill">User Experience Design</dd>
+	</dl>
+	
+	<dl class="rucker">
+		<dt class="name">Josh Rucker</dt>
+		<dd class="job-title">Partner</dd>
+		<dd class="skill">Full-stack Development</dd>
+		<dd class="skill">Content Direction</dd>
+	</dl>
+	
+</section>
 	
 <section id="services">
 	
