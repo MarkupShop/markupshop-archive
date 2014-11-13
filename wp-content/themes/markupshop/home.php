@@ -70,7 +70,7 @@
 		
 	</div>
 	
-	<?php echo do_shortcode('[contact-form-7 id="6" title="Contact Form Homepage"]'); ?>
+	<?php echo do_shortcode('[contact-form-7 id="7" title="Homepage Contact Form"]'); ?>
 	
 </section>
 
