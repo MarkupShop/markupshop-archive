@@ -20,6 +20,10 @@ $blue: #76bee4;
 	background: url('http://subtlepatterns.com/patterns/subtle_dots.png') repeat 0 0;
 	@include clearfix;
 	
+	.section-header{
+		color: #aaa;
+	}
+	
 	.about-text{
 		line-height: 1.4em;
 		font-size: 1.2em;
@@ -38,11 +42,8 @@ $blue: #76bee4;
 	padding-top: 6em;
 	padding-bottom: 7em;
 	border-top: 1px solid #ddd;
+	border-bottom: 1em solid #fff;
 	@include clearfix;
-	
-	.section-header:after{
-		background: #eee;
-	}
 	
 	dl{
 		width: 28%;
@@ -84,13 +85,6 @@ $blue: #76bee4;
 	padding-top: 6em;
 	padding-bottom: 5em;
 	@include clearfix;
-
-	.section-header{
-		&:after{
-			background: #ddd;
-			width: 250px;
-		}
-	}
 
 	.contact-text{
 		color: #fff;

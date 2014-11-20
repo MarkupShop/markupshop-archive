@@ -8,21 +8,13 @@
 
 .section-header{
 	margin-bottom: 2em;
-	font-size: 1.4em;
-	font-weight: 100;
+	font-size: 2em;
+	font-weight: 600;
+	color: #fff;
+	opacity: .25;
 	text-transform: uppercase;
-	letter-spacing: 3px;
-	opacity: .6;
+	letter-spacing: 2px;
 	text-align: center;
-	
-	&:after{
-		content:'';
-		height: 1px;
-		width: 200px;
-		margin: .5em auto 0;
-		background: #999;
-		display: block;
-	}
 	
 }
 
