@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,50 +24,50 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+/* line 116, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 1, ../sass/global.scss */
+/* line 1, ../sass/_global.scss */
 .page-title {
   text-indent: -9999em;
   background: url("../assets/images/logo-stacked.png") no-repeat center center;
@@ -76,7 +76,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 100px;
 }
 
-/* line 9, ../sass/global.scss */
+/* line 9, ../sass/_global.scss */
 .section-header {
   margin-bottom: 2em;
   font-size: 1.4em;
@@ -86,7 +86,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   opacity: .6;
   text-align: center;
 }
-/* line 18, ../sass/global.scss */
+/* line 18, ../sass/_global.scss */
 .section-header:after {
   content: '';
   height: 1px;
@@ -96,18 +96,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 29, ../sass/global.scss */
+/* line 29, ../sass/_global.scss */
 footer {
   padding: 2em 12.5%;
   border-top: 1px solid #333;
   background: #666;
 }
-/* line 34, ../sass/global.scss */
+/* line 34, ../sass/_global.scss */
 footer dl {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 37, ../sass/global.scss */
+/* line 37, ../sass/_global.scss */
 footer dl dt {
   float: left;
   font-family: "proxima-nova";
@@ -115,7 +115,7 @@ footer dl dt {
   font-weight: 100;
   padding-top: 10px;
 }
-/* line 44, ../sass/global.scss */
+/* line 44, ../sass/_global.scss */
 footer dl dd {
   float: right;
   background: #ccc;
@@ -126,28 +126,28 @@ footer dl dd {
   display: inline-block;
   background: url("../assets/images/social-sprite.png") no-repeat 0 0;
 }
-/* line 54, ../sass/global.scss */
+/* line 54, ../sass/_global.scss */
 footer dl dd.facebook {
   background-position: -30px 0;
 }
-/* line 55, ../sass/global.scss */
+/* line 55, ../sass/_global.scss */
 footer dl dd.skype {
   background-position: -60px 0;
 }
 
-/* line 60, ../sass/global.scss */
+/* line 60, ../sass/_global.scss */
 section {
   padding: 2em 15%;
   font-family: 'proxima-nova', helvetica, arial;
   font-size: 1.2em;
 }
 
-/* line 66, ../sass/global.scss */
+/* line 66, ../sass/_global.scss */
 .access {
   display: none;
 }
 
-/* line 1, ../sass/home.scss */
+/* line 1, ../sass/_home.scss */
 #intro {
   background: url("../assets/images/raleigh-orange.jpg") no-repeat center;
   background-size: cover;
@@ -158,7 +158,7 @@ section {
   position: relative;
 }
 
-/* line 11, ../sass/home.scss */
+/* line 11, ../sass/_home.scss */
 #about {
   padding-top: 6em;
   padding-bottom: 6em;
@@ -166,23 +166,23 @@ section {
   *zoom: 1;
   background: url("http://subtlepatterns.com/patterns/subtle_dots.png") repeat 0 0;
 }
-/* line 17, ../sass/home.scss */
+/* line 17, ../sass/_home.scss */
 #about .about-text {
   line-height: 1.4em;
   font-size: 1.2em;
   font-weight: 300;
   margin: 0 auto;
 }
-/* line 23, ../sass/home.scss */
+/* line 23, ../sass/_home.scss */
 #about .about-text p + p {
   margin-top: 2em;
 }
 
-/* line 29, ../sass/home.scss */
+/* line 29, ../sass/_home.scss */
 #bios {
   padding: 0;
 }
-/* line 32, ../sass/home.scss */
+/* line 32, ../sass/_home.scss */
 #bios dl {
   padding: 15% 0;
   float: left;
@@ -190,13 +190,13 @@ section {
   border-top: 10px solid #333;
   border-bottom: 10px solid #333;
 }
-/* line 41, ../sass/home.scss */
+/* line 41, ../sass/_home.scss */
 #bios dl.rucker {
   background: url("../assets/images/rucker-large.jpg") no-repeat 0 0;
   background-size: cover;
   position: relative;
 }
-/* line 45, ../sass/home.scss */
+/* line 45, ../sass/_home.scss */
 #bios dl.rucker:before {
   content: '';
   display: block;
@@ -207,28 +207,28 @@ section {
   top: 0;
   background: #333;
 }
-/* line 57, ../sass/home.scss */
+/* line 57, ../sass/_home.scss */
 #bios dl.mobley {
   background: url("../assets/images/mobley-large.jpg") no-repeat 0 0;
   background-size: cover;
 }
-/* line 59, ../sass/home.scss */
+/* line 59, ../sass/_home.scss */
 #bios dl img {
   width: 33%;
   margin-right: 5%;
   float: left;
   margin-top: -1em;
 }
-/* line 66, ../sass/home.scss */
+/* line 66, ../sass/_home.scss */
 #bios dl dt {
   font-weight: 400;
 }
-/* line 70, ../sass/home.scss */
+/* line 70, ../sass/_home.scss */
 #bios dl dt, #bios dl dd {
   margin-left: 65%;
   color: #fff;
 }
-/* line 75, ../sass/home.scss */
+/* line 75, ../sass/_home.scss */
 #bios dl .job-title {
   color: #ddd;
   font-weight: 100;
@@ -236,7 +236,7 @@ section {
   margin-bottom: .5em;
   font-size: .8em;
 }
-/* line 83, ../sass/home.scss */
+/* line 83, ../sass/_home.scss */
 #bios dl .skill {
   font-size: .8em;
   line-height: 1.4em;
@@ -244,7 +244,7 @@ section {
   color: #aaa;
 }
 
-/* line 94, ../sass/home.scss */
+/* line 94, ../sass/_home.scss */
 #services {
   background: url(http://subtlepatterns.com/patterns/linen.png);
   padding-top: 6em;
@@ -253,39 +253,42 @@ section {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 101, ../sass/home.scss */
+/* line 101, ../sass/_home.scss */
 #services dl {
   width: 28%;
   margin: 0 2.5%;
   float: left;
-  padding-top: 5.5em;
   text-align: center;
 }
-/* line 108, ../sass/home.scss */
+/* line 107, ../sass/_home.scss */
+#services dl .icon {
+  display: block;
+}
+/* line 111, ../sass/_home.scss */
+#services dl .icon svg {
+  display: block;
+  width: 33%;
+  min-width: 65px;
+  margin: 0 auto;
+  fill: #333;
+}
+/* line 119, ../sass/_home.scss */
+#services dl .icon {
+  margin-bottom: 2em;
+}
+/* line 123, ../sass/_home.scss */
 #services dl dt {
   font-weight: 400;
   margin-bottom: 1em;
 }
-/* line 113, ../sass/home.scss */
+/* line 128, ../sass/_home.scss */
 #services dl dd {
   line-height: 1.4em;
   font-size: 1em;
   font-weight: 300;
 }
-/* line 120, ../sass/home.scss */
-#services .development {
-  background: url("../assets/images/home/development.png") no-repeat center 10px;
-}
-/* line 124, ../sass/home.scss */
-#services .support {
-  background: url("../assets/images/home/support.png") no-repeat center 12px;
-}
-/* line 128, ../sass/home.scss */
-#services .customization {
-  background: url("../assets/images/home/customization.png") no-repeat top center;
-}
 
-/* line 133, ../sass/home.scss */
+/* line 137, ../sass/_home.scss */
 #contact {
   background: #76bee4;
   padding-top: 6em;
@@ -293,39 +296,39 @@ section {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 139, ../sass/home.scss */
+/* line 143, ../sass/_home.scss */
 #contact .section-header {
   text-align: left;
 }
-/* line 142, ../sass/home.scss */
+/* line 146, ../sass/_home.scss */
 #contact .section-header:after {
   background: #ddd;
   margin: .5em 0;
   width: 250px;
 }
-/* line 149, ../sass/home.scss */
+/* line 153, ../sass/_home.scss */
 #contact .contact-text {
   float: right;
   width: 38.75%;
   color: #fff;
 }
-/* line 154, ../sass/home.scss */
+/* line 158, ../sass/_home.scss */
 #contact .contact-text p {
   line-height: 1.4em;
   font-weight: 300;
 }
-/* line 160, ../sass/home.scss */
+/* line 164, ../sass/_home.scss */
 #contact form {
   width: 45%;
 }
-/* line 163, ../sass/home.scss */
+/* line 167, ../sass/_home.scss */
 #contact form input, #contact form textarea {
   width: 100%;
   border: none;
   margin-bottom: 1em;
   padding: 1em;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: .75em;
   font-weight: 100;
@@ -333,17 +336,17 @@ section {
   margin-bottom: 1.5em;
   font-family: "proxima-nova";
 }
-/* line 176, ../sass/home.scss */
+/* line 180, ../sass/_home.scss */
 #contact form label {
   color: #fff;
   font-weight: 100;
 }
-/* line 181, ../sass/home.scss */
+/* line 185, ../sass/_home.scss */
 #contact form textarea {
   height: 8em;
   resize: none;
 }
-/* line 186, ../sass/home.scss */
+/* line 190, ../sass/_home.scss */
 #contact form input[type="submit"] {
   background: #4098c6;
   color: #fff;
@@ -353,23 +356,23 @@ section {
   font-weight: 100;
   letter-spacing: 3px;
   font-size: 1em;
-  -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   cursor: pointer;
 }
-/* line 198, ../sass/home.scss */
+/* line 202, ../sass/_home.scss */
 #contact form input[type="submit"]:hover {
   color: #edb665;
   background: #4c9eca;
 }
-/* line 205, ../sass/home.scss */
+/* line 209, ../sass/_home.scss */
 #contact .screen-reader-response {
   visibility: hidden;
   height: 0;
 }
-/* line 210, ../sass/home.scss */
+/* line 214, ../sass/_home.scss */
 #contact [role="alert"] {
   font-size: .9em;
   margin-bottom: 1em;
@@ -379,51 +382,51 @@ section {
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 222, ../sass/home.scss */
+  /* line 226, ../sass/_home.scss */
   #about .about-text {
     float: none;
     width: 100%;
     text-align: center;
   }
-  /* line 228, ../sass/home.scss */
+  /* line 232, ../sass/_home.scss */
   #about .about-bios {
     margin-top: 2em;
     float: none;
     width: 100%;
   }
-  /* line 233, ../sass/home.scss */
+  /* line 237, ../sass/_home.scss */
   #about .about-bios dl {
     width: 50%;
     text-align: center;
     float: left;
   }
-  /* line 238, ../sass/home.scss */
+  /* line 242, ../sass/_home.scss */
   #about .about-bios dl img {
     margin: 0 0 1em;
     float: none;
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 250, ../sass/home.scss */
+  /* line 254, ../sass/_home.scss */
   #intro {
     font-size: 2.5em;
   }
 
-  /* line 255, ../sass/home.scss */
+  /* line 259, ../sass/_home.scss */
   #services dl {
     width: 100%;
     float: none;
   }
-  /* line 259, ../sass/home.scss */
+  /* line 263, ../sass/_home.scss */
   #services dl + dl {
     margin-top: 4em;
   }
 
-  /* line 266, ../sass/home.scss */
+  /* line 270, ../sass/_home.scss */
   #contact form {
     width: 100%;
   }
-  /* line 270, ../sass/home.scss */
+  /* line 274, ../sass/_home.scss */
   #contact .contact-text {
     float: none;
     width: 100%;
@@ -431,12 +434,12 @@ section {
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 281, ../sass/home.scss */
+  /* line 285, ../sass/_home.scss */
   #intro {
     font-size: 2em;
   }
 
-  /* line 287, ../sass/home.scss */
+  /* line 291, ../sass/_home.scss */
   #about .about-bios dl {
     float: none;
     width: 100%;
