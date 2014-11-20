@@ -32,57 +32,50 @@ $blue: #76bee4;
 	}
 }
 
+
 #services{
 	background: $orange;
 	padding-top: 6em;
 	padding-bottom: 7em;
 	border-top: 1px solid #ddd;
 	@include clearfix;
-	clear: both;
 	
 	.section-header:after{
 		background: #eee;
 	}
 	
-	@keyframes animateBackground{
-		from{ background-position: 0 0; opacity: 0;}
-		to{ background-position: center 10px; opacity: 1; }
-	}
-		
 	dl{
 		width: 28%;
 		margin: 0 2.5%;
 		float: left;
-		padding-top: 5.5em;
 		text-align: center;
-		position: relative;
-		
-		&.background-animate:after{
-			animation: animateBackground 2s linear;
-		}
-		
+
+        .icon{
+            display:block;
+        }
+
+        .icon svg{
+            display: block;
+            width: 33%;
+            min-width: 65px;
+            margin: 0 auto;
+            fill: #333;
+        }
+
+        .icon{
+            margin-bottom: 2em;
+        }
+
 		dt{
 			font-weight: 400;
 			margin-bottom: 1em;
 		}
-		
+
 		dd{
 			line-height: 1.4em;
 			font-size: 1em;
 			font-weight: 300;
 		}
-	}
-	
-	.development{
-		background: url('../assets/images/home/development.png') no-repeat center 12px;
-	}
-	
-	.support{
-		background: url('../assets/images/home/support.png') no-repeat center 12px;
-	}
-	
-	.customization{
-		background: url('../assets/images/home/customization.png') no-repeat top center;
 	}
 }
 
@@ -91,15 +84,14 @@ $blue: #76bee4;
 	padding-top: 6em;
 	padding-bottom: 5em;
 	@include clearfix;
-	
+
 	.section-header{
-		
 		&:after{
 			background: #ddd;
 			width: 250px;
 		}
 	}
-	
+
 	.contact-text{
 		color: #fff;
 		text-align: center;
@@ -174,36 +166,38 @@ $blue: #76bee4;
 			}
 		}
 	}
+
+
 }
 
 
 @media screen and (max-width: 1200px){
-	
+
 	#about{
 		.about-text{
 			float: none;
 			width: 100%;
 			text-align: center;
 		}
-		
+
 		.about-bios{
 			margin-top: 2em;
 			float: none;
 			width: 100%;
-			
+
 			dl{
 				width: 50%;
 				text-align: center;
 				float: left;
-				
-				img{ 
+
+				img{
 					margin: 0 0 1em;
 					float: none;
 				}
 			}
 		}
 	}
-	
+
 }
 
 @media screen and (max-width: 1024px){
@@ -224,42 +218,42 @@ $blue: #76bee4;
 }
 
 @media screen and (max-width: 800px){
-	
+
 	#intro{
 		font-size: 2.5em;
 	}
-	
+
 	#services{
 		dl{
 			width: 100%;
 			float: none;
-			
+
 			&+dl{
 				margin-top: 4em;
 			}
 		}
 	}
-	
+
 	#contact{
 		form{
 			width: 100%;
 		}
-		
+
 		.contact-text{
 			float: none;
 			width: 100%;
 			margin-bottom: 4em;
 		}
 	}
-	
+
 }
 
 @media screen and (max-width: 600px){
-	
+
 	#intro{
 		font-size: 1.6em;
 	}
-	
+
 	#about{
 		.about-bios{
 			dl{
@@ -269,6 +263,6 @@ $blue: #76bee4;
 			}
 		}
 	}
-	
+
 }
 
