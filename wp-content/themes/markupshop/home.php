@@ -18,26 +18,6 @@
 	</div>
 	
 </section><!--#about-->
-
-
-
-<section id="bios">
-	
-	<dl class="mobley">
-		<dt class="name">Josh Mobley</dt>
-		<dd class="job-title">Managing Partner</dd>
-		<dd class="skill">Front-end Development</dd>
-		<dd class="skill">User Experience Design</dd>
-	</dl>
-	
-	<dl class="rucker">
-		<dt class="name">Josh Rucker</dt>
-		<dd class="job-title">Partner</dd>
-		<dd class="skill">Full-stack Development</dd>
-		<dd class="skill">Content Direction</dd>
-	</dl>
-	
-</section>
 	
 <section id="services">
 	
@@ -65,14 +45,36 @@
 	<div class="contact-text">
 	
 		<h3 class="section-header">Get In Touch</h3>
+		
+		<a href="mailto:contact@markupshop.com">contact<span>@markupshop.com</span></a> 
 	
 		<p>If you've got a project ready to start, or are just looking for someone to be your "go-to" developers in the future, we'd love to hear from you. We love talking with others about their projects and helping folks map out the way forward.</p>
 		
+		<section id="bios">
+
+			<div class="mobley">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/mobley_circle.png" />
+				<dl>
+					<dt class="name">Josh Mobley</dt>
+					<dd class="job-title">Managing Partner</dd>
+				</dl>
+			</div>
+
+			<div class="rucker">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/rucker_circle.png" />
+				<dl>
+					<dt class="name">Josh Rucker</dt>
+					<dd class="job-title">Partner</dd>
+				</dl>
+			</div>
+
+		</section>
+		
 	</div>
-	
-	<?php echo do_shortcode('[contact-form-7 id="7" title="Homepage Contact Form"]'); ?>
 	
 </section>
 
-<?php get_footer(); ?>
+<?php 
+get_footer(); 
+?>
 	

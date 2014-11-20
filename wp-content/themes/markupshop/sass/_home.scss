@@ -1,0 +1,274 @@
+$orange: #edb664;
+$blue: #76bee4;
+
+
+#intro{
+	background: $blue url('../assets/images/home/yosemite_banner.jpg') no-repeat center center;
+	background-size: cover;	
+	font-size: 3em;
+	line-height: 1.4em;
+	color: #fff;
+	border-bottom: 1px solid #ddd;
+	font-weight: 100;
+	position: relative;
+	text-align: center;
+}
+
+#about{
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: url('http://subtlepatterns.com/patterns/subtle_dots.png') repeat 0 0;
+	@include clearfix;
+	
+	.about-text{
+		line-height: 1.4em;
+		font-size: 1.2em;
+		font-weight: 300;
+		margin: 0 auto;
+
+		p + p{
+			margin-top: 2em;
+		}
+	}
+}
+
+#services{
+	background: $orange;
+	padding-top: 6em;
+	padding-bottom: 7em;
+	border-top: 1px solid #ddd;
+	@include clearfix;
+	clear: both;
+	
+	.section-header:after{
+		background: #eee;
+	}
+	
+	@keyframes animateBackground{
+		from{ background-position: 0 0; opacity: 0;}
+		to{ background-position: center 10px; opacity: 1; }
+	}
+		
+	dl{
+		width: 28%;
+		margin: 0 2.5%;
+		float: left;
+		padding-top: 5.5em;
+		text-align: center;
+		position: relative;
+		
+		&.background-animate:after{
+			animation: animateBackground 2s linear;
+		}
+		
+		dt{
+			font-weight: 400;
+			margin-bottom: 1em;
+		}
+		
+		dd{
+			line-height: 1.4em;
+			font-size: 1em;
+			font-weight: 300;
+		}
+	}
+	
+	.development{
+		background: url('../assets/images/home/development.png') no-repeat center 12px;
+	}
+	
+	.support{
+		background: url('../assets/images/home/support.png') no-repeat center 12px;
+	}
+	
+	.customization{
+		background: url('../assets/images/home/customization.png') no-repeat top center;
+	}
+}
+
+#contact{
+	background: $blue;
+	padding-top: 6em;
+	padding-bottom: 5em;
+	@include clearfix;
+	
+	.section-header{
+		
+		&:after{
+			background: #ddd;
+			width: 250px;
+		}
+	}
+	
+	.contact-text{
+		color: #fff;
+		text-align: center;
+		
+		p{
+			line-height: 1.4em;
+			font-weight: 200;
+			font-size: 1.4em;
+		}
+	}
+	
+	a{
+		padding: 1em;
+		font-size: 1.4em;
+		color: #fff;
+		text-decoration: none;
+		padding: 1em;
+		display: inline-block;
+		margin-bottom: 2em;
+		border: 1px solid #fff;
+		font-weight: 100;
+		letter-spacing: 1px;
+		@include transition(.5s all);
+		@include border-radius(10px);
+		
+		&:hover{
+			color: $blue;
+			background: #fff;
+		}
+	}
+}
+
+#bios{
+	padding: 0;
+	background: $blue;
+	overflow: hidden;
+	margin-top: 2em;
+	@include clearfix;
+	
+	div{
+		width: 40%;
+		margin-right: 10%;
+		float: left;
+		
+		img{
+			float: left;
+			margin-right: 1em;
+			vertical-align: middle;
+			max-width: 150px;
+			z-index: 2;
+			position: relative;
+		}
+		
+		dl{
+			text-align: left;
+			font-size: .8em;
+			background: rgba(255, 255, 255, 0.25);
+			padding: 10%;
+			position: relative;
+			top: 20px;
+			border-radius: 100px 10px 10px 100px;
+			
+			dt{
+				color: #fff;
+				font-weight:400;
+			}
+			
+			dd{
+				font-weight: 100;
+				margin-top: .25em;
+				color: #666;
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 1200px){
+	
+	#about{
+		.about-text{
+			float: none;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.about-bios{
+			margin-top: 2em;
+			float: none;
+			width: 100%;
+			
+			dl{
+				width: 50%;
+				text-align: center;
+				float: left;
+				
+				img{ 
+					margin: 0 0 1em;
+					float: none;
+				}
+			}
+		}
+	}
+	
+}
+
+@media screen and (max-width: 1024px){
+	
+	#bios dl.rucker, #bios dl.mobley{
+		float: none;
+		width: 100%;
+		background-position: center;
+	}
+	
+	#bios dl.mobley{
+		border-bottom: 0;
+	}
+	
+	#bios dl.rucker:before{
+		content: none;
+	}
+}
+
+@media screen and (max-width: 800px){
+	
+	#intro{
+		font-size: 2.5em;
+	}
+	
+	#services{
+		dl{
+			width: 100%;
+			float: none;
+			
+			&+dl{
+				margin-top: 4em;
+			}
+		}
+	}
+	
+	#contact{
+		form{
+			width: 100%;
+		}
+		
+		.contact-text{
+			float: none;
+			width: 100%;
+			margin-bottom: 4em;
+		}
+	}
+	
+}
+
+@media screen and (max-width: 600px){
+	
+	#intro{
+		font-size: 1.6em;
+	}
+	
+	#about{
+		.about-bios{
+			dl{
+				float: none;
+				width: 100%;
+				margin: 0 0 2em;
+			}
+		}
+	}
+	
+}
+

@@ -14,6 +14,8 @@
 		<![endif]-->
 		<script src="//use.typekit.net/fnj7kze.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
+		
+		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.1.min.js"></script>
 	</head>
 	
 	<body>
