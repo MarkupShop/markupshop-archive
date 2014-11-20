@@ -8,15 +8,15 @@ $blue: #76bee4;
 	font-size: 3em;
 	line-height: 1.4em;
 	color: #fff;
-	border-bottom: 1px solid #ddd;
 	font-weight: 100;
 	position: relative;
 	text-align: center;
 }
 
 #about{
-	padding-top: 6em;
+	padding-top: 5em;
 	padding-bottom: 6em;
+	border-top: 5px solid #000;
 	background: url('http://subtlepatterns.com/patterns/subtle_dots.png') repeat 0 0;
 	@include clearfix;
 	
@@ -39,10 +39,10 @@ $blue: #76bee4;
 
 #services{
 	background: $orange;
-	padding-top: 6em;
+	padding-top: 5em;
 	padding-bottom: 7em;
-	border-top: 1px solid #ddd;
-	border-bottom: 1em solid #fff;
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #000;
 	@include clearfix;
 	
 	dl{
@@ -82,7 +82,7 @@ $blue: #76bee4;
 
 #contact{
 	background: $blue;
-	padding-top: 6em;
+	padding-top: 5em;
 	padding-bottom: 5em;
 	@include clearfix;
 

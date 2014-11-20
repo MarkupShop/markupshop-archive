@@ -91,15 +91,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 21, ../sass/_global.scss */
 footer {
   padding: 2em 12.5%;
-  border-top: 1px solid #333;
-  background: #666;
+  background: #000;
 }
-/* line 26, ../sass/_global.scss */
+/* line 25, ../sass/_global.scss */
 footer dl {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 29, ../sass/_global.scss */
+/* line 28, ../sass/_global.scss */
 footer dl dt {
   float: left;
   font-family: "proxima-nova";
@@ -107,7 +106,7 @@ footer dl dt {
   font-weight: 100;
   padding-top: 10px;
 }
-/* line 36, ../sass/_global.scss */
+/* line 35, ../sass/_global.scss */
 footer dl dd {
   float: right;
   background: #ccc;
@@ -118,23 +117,23 @@ footer dl dd {
   display: inline-block;
   background: url("../assets/images/social-sprite.png") no-repeat 0 0;
 }
-/* line 46, ../sass/_global.scss */
+/* line 45, ../sass/_global.scss */
 footer dl dd.facebook {
   background-position: -30px 0;
 }
-/* line 47, ../sass/_global.scss */
+/* line 46, ../sass/_global.scss */
 footer dl dd.skype {
   background-position: -60px 0;
 }
 
-/* line 52, ../sass/_global.scss */
+/* line 51, ../sass/_global.scss */
 section {
   padding: 2em 15%;
   font-family: 'proxima-nova', helvetica, arial;
   font-size: 1.2em;
 }
 
-/* line 58, ../sass/_global.scss */
+/* line 57, ../sass/_global.scss */
 .access {
   display: none;
 }
@@ -146,16 +145,16 @@ section {
   font-size: 3em;
   line-height: 1.4em;
   color: #fff;
-  border-bottom: 1px solid #ddd;
   font-weight: 100;
   position: relative;
   text-align: center;
 }
 
-/* line 17, ../sass/_home.scss */
+/* line 16, ../sass/_home.scss */
 #about {
-  padding-top: 6em;
+  padding-top: 5em;
   padding-bottom: 6em;
+  border-top: 5px solid #000;
   background: url("http://subtlepatterns.com/patterns/subtle_dots.png") repeat 0 0;
   overflow: hidden;
   *zoom: 1;
@@ -179,10 +178,10 @@ section {
 /* line 40, ../sass/_home.scss */
 #services {
   background: #edb664;
-  padding-top: 6em;
+  padding-top: 5em;
   padding-bottom: 7em;
-  border-top: 1px solid #ddd;
-  border-bottom: 1em solid #fff;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
   overflow: hidden;
   *zoom: 1;
 }
@@ -224,7 +223,7 @@ section {
 /* line 83, ../sass/_home.scss */
 #contact {
   background: #76bee4;
-  padding-top: 6em;
+  padding-top: 5em;
   padding-bottom: 5em;
   overflow: hidden;
   *zoom: 1;
