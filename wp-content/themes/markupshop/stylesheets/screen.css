@@ -82,7 +82,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-size: 2em;
   font-weight: 600;
   color: #fff;
-  opacity: .25;
+  opacity: .5;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
@@ -91,7 +91,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 21, ../sass/_global.scss */
 footer {
   padding: 2em 12.5%;
-  background: #000;
+  background: #666;
 }
 /* line 25, ../sass/_global.scss */
 footer dl {
@@ -154,7 +154,7 @@ section {
 #about {
   padding-top: 5em;
   padding-bottom: 6em;
-  border-top: 5px solid #000;
+  border-top: 5px solid #666;
   background: url("http://subtlepatterns.com/patterns/subtle_dots.png") repeat 0 0;
   overflow: hidden;
   *zoom: 1;
@@ -180,8 +180,8 @@ section {
   background: #edb664;
   padding-top: 5em;
   padding-bottom: 7em;
-  border-top: 5px solid #000;
-  border-bottom: 5px solid #000;
+  border-top: 5px solid #666;
+  border-bottom: 5px solid #666;
   overflow: hidden;
   *zoom: 1;
 }
@@ -202,25 +202,26 @@ section {
   width: 33%;
   min-width: 65px;
   margin: 0 auto;
-  fill: #333;
+  fill: #fff;
+  opacity: .5;
 }
-/* line 66, ../sass/_home.scss */
+/* line 67, ../sass/_home.scss */
 #services dl .icon {
   margin-bottom: 2em;
 }
-/* line 70, ../sass/_home.scss */
+/* line 71, ../sass/_home.scss */
 #services dl dt {
   font-weight: 400;
   margin-bottom: 1em;
 }
-/* line 75, ../sass/_home.scss */
+/* line 76, ../sass/_home.scss */
 #services dl dd {
   line-height: 1.4em;
   font-size: 1em;
   font-weight: 300;
 }
 
-/* line 83, ../sass/_home.scss */
+/* line 84, ../sass/_home.scss */
 #contact {
   background: #76bee4;
   padding-top: 5em;
@@ -228,18 +229,18 @@ section {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 89, ../sass/_home.scss */
+/* line 90, ../sass/_home.scss */
 #contact .contact-text {
   color: #fff;
   text-align: center;
 }
-/* line 93, ../sass/_home.scss */
+/* line 94, ../sass/_home.scss */
 #contact .contact-text p {
   line-height: 1.4em;
   font-weight: 200;
   font-size: 1.4em;
 }
-/* line 100, ../sass/_home.scss */
+/* line 101, ../sass/_home.scss */
 #contact a {
   padding: 1em;
   font-size: 1.4em;
@@ -261,13 +262,13 @@ section {
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 114, ../sass/_home.scss */
+/* line 115, ../sass/_home.scss */
 #contact a:hover {
   color: #76bee4;
   background: #fff;
 }
 
-/* line 121, ../sass/_home.scss */
+/* line 122, ../sass/_home.scss */
 #bios {
   padding: 0;
   background: #76bee4;
@@ -276,13 +277,13 @@ section {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 128, ../sass/_home.scss */
+/* line 129, ../sass/_home.scss */
 #bios div {
   width: 40%;
   margin-right: 10%;
   float: left;
 }
-/* line 133, ../sass/_home.scss */
+/* line 134, ../sass/_home.scss */
 #bios div img {
   float: left;
   margin-right: 1em;
@@ -291,7 +292,7 @@ section {
   z-index: 2;
   position: relative;
 }
-/* line 142, ../sass/_home.scss */
+/* line 143, ../sass/_home.scss */
 #bios div dl {
   text-align: left;
   font-size: .8em;
@@ -301,12 +302,12 @@ section {
   top: 20px;
   border-radius: 100px 10px 10px 100px;
 }
-/* line 151, ../sass/_home.scss */
+/* line 152, ../sass/_home.scss */
 #bios div dl dt {
   color: #fff;
   font-weight: 400;
 }
-/* line 156, ../sass/_home.scss */
+/* line 157, ../sass/_home.scss */
 #bios div dl dd {
   font-weight: 100;
   margin-top: .25em;
@@ -314,69 +315,69 @@ section {
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 171, ../sass/_home.scss */
+  /* line 172, ../sass/_home.scss */
   #about .about-text {
     float: none;
     width: 100%;
     text-align: center;
   }
-  /* line 177, ../sass/_home.scss */
+  /* line 178, ../sass/_home.scss */
   #about .about-bios {
     margin-top: 2em;
     float: none;
     width: 100%;
   }
-  /* line 182, ../sass/_home.scss */
+  /* line 183, ../sass/_home.scss */
   #about .about-bios dl {
     width: 50%;
     text-align: center;
     float: left;
   }
-  /* line 187, ../sass/_home.scss */
+  /* line 188, ../sass/_home.scss */
   #about .about-bios dl img {
     margin: 0 0 1em;
     float: none;
   }
 }
 @media screen and (max-width: 1024px) {
-  /* line 199, ../sass/_home.scss */
+  /* line 200, ../sass/_home.scss */
   #bios dl.rucker, #bios dl.mobley {
     float: none;
     width: 100%;
     background-position: center;
   }
 
-  /* line 205, ../sass/_home.scss */
+  /* line 206, ../sass/_home.scss */
   #bios dl.mobley {
     border-bottom: 0;
   }
 
-  /* line 209, ../sass/_home.scss */
+  /* line 210, ../sass/_home.scss */
   #bios dl.rucker:before {
     content: none;
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 216, ../sass/_home.scss */
+  /* line 217, ../sass/_home.scss */
   #intro {
     font-size: 2.5em;
   }
 
-  /* line 221, ../sass/_home.scss */
+  /* line 222, ../sass/_home.scss */
   #services dl {
     width: 100%;
     float: none;
   }
-  /* line 225, ../sass/_home.scss */
+  /* line 226, ../sass/_home.scss */
   #services dl + dl {
     margin-top: 4em;
   }
 
-  /* line 232, ../sass/_home.scss */
+  /* line 233, ../sass/_home.scss */
   #contact form {
     width: 100%;
   }
-  /* line 236, ../sass/_home.scss */
+  /* line 237, ../sass/_home.scss */
   #contact .contact-text {
     float: none;
     width: 100%;
@@ -384,12 +385,12 @@ section {
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 247, ../sass/_home.scss */
+  /* line 248, ../sass/_home.scss */
   #intro {
     font-size: 1.6em;
   }
 
-  /* line 253, ../sass/_home.scss */
+  /* line 254, ../sass/_home.scss */
   #about .about-bios dl {
     float: none;
     width: 100%;

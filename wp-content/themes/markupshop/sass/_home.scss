@@ -16,7 +16,7 @@ $blue: #76bee4;
 #about{
 	padding-top: 5em;
 	padding-bottom: 6em;
-	border-top: 5px solid #000;
+	border-top: 5px solid #666;
 	background: url('http://subtlepatterns.com/patterns/subtle_dots.png') repeat 0 0;
 	@include clearfix;
 	
@@ -41,8 +41,8 @@ $blue: #76bee4;
 	background: $orange;
 	padding-top: 5em;
 	padding-bottom: 7em;
-	border-top: 5px solid #000;
-	border-bottom: 5px solid #000;
+	border-top: 5px solid #666;
+	border-bottom: 5px solid #666;
 	@include clearfix;
 	
 	dl{
@@ -60,7 +60,8 @@ $blue: #76bee4;
             width: 33%;
             min-width: 65px;
             margin: 0 auto;
-            fill: #333;
+            fill: #fff;
+			opacity: .5;
         }
 
         .icon{

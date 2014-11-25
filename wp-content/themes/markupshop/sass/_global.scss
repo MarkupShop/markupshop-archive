@@ -11,7 +11,7 @@
 	font-size: 2em;
 	font-weight: 600;
 	color: #fff;
-	opacity: .25;
+	opacity: .5;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-align: center;
@@ -20,7 +20,7 @@
 
 footer{ 
 	padding: 2em 12.5%;
-	background: #000;
+	background: #666;
 	
 	dl{
 		@include clearfix;
