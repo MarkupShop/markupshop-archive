@@ -313,11 +313,15 @@ $blue: #76bee4;
 @media screen and (max-width: 480px){
 	
 	#about .about-text{
-		font-size: 1em;
+		font-size: .8em;
 	}
 	
-	#contact a{
-		font-size: .8em;
+	#contact{
+		.contact-text{
+			font-size: .8em;
+	 	a{
+			font-size: .8em;
+		}
 	}
 }
 
