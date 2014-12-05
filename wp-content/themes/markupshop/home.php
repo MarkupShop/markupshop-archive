@@ -43,7 +43,7 @@
 	<dl class="customization">
 		<dt>
             <span class="icon">
-                <svg viewBox="-1 0 25 28" class="shape-tab">
+                <svg viewBox="-1 0 25 25" class="shape-tab">
                     <use xlink:href="#icon-customization"></use>
                 </svg>
             </span>
