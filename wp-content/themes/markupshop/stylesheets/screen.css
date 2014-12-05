@@ -138,6 +138,12 @@ section {
   display: none;
 }
 
+@media screen and (max-width: 600px) {
+  /* line 62, ../sass/_global.scss */
+  .section-header {
+    font-size: 1.4em;
+  }
+}
 /* line 5, ../sass/_home.scss */
 #intro {
   background: #76bee4 url("../assets/images/home/yosemite_banner.jpg") no-repeat center center;
@@ -434,7 +440,7 @@ section {
   #bios div dl dd {
     font-size: .7em;
     margin-top: .5em;
-    opacity: .5;
+    opacity: .7;
   }
 }
 @media screen and (max-width: 600px) {
