@@ -457,19 +457,20 @@ section {
   /* line 311, ../sass/_home.scss */
   #contact a {
     font-size: 1em;
+    font-weight: 300;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 319, ../sass/_home.scss */
+  /* line 320, ../sass/_home.scss */
   #about .about-text {
     font-size: .8em;
   }
 
-  /* line 324, ../sass/_home.scss */
+  /* line 325, ../sass/_home.scss */
   #contact .contact-text {
     font-size: .8em;
   }
-  /* line 327, ../sass/_home.scss */
+  /* line 328, ../sass/_home.scss */
   #contact a {
     font-size: .8em;
   }
