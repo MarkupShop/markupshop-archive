@@ -19,4 +19,5 @@
 	</head>
 	
 	<body>
+		<?php include('analytics.php'); ?>
 		
