@@ -457,7 +457,7 @@ section {
   /* line 311, ../sass/_home.scss */
   #contact a {
     font-size: 1em;
-    font-weight: 300;
+    font-weight: 600;
   }
 }
 @media screen and (max-width: 480px) {
