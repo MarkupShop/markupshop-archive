@@ -450,21 +450,26 @@ section {
   }
 
   /* line 307, ../sass/_home.scss */
+  #services dl dd {
+    font-size: .8em;
+  }
+
+  /* line 311, ../sass/_home.scss */
   #contact a {
     font-size: 1em;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 315, ../sass/_home.scss */
+  /* line 319, ../sass/_home.scss */
   #about .about-text {
     font-size: .8em;
   }
 
-  /* line 320, ../sass/_home.scss */
+  /* line 324, ../sass/_home.scss */
   #contact .contact-text {
     font-size: .8em;
   }
-  /* line 323, ../sass/_home.scss */
+  /* line 327, ../sass/_home.scss */
   #contact a {
     font-size: .8em;
   }
