@@ -1,80 +1,465 @@
-/*
-Syntax error: Invalid CSS after "}": expected "}", was ""
-        on line 328 of /Applications/MAMP/htdocs/markup-shop/wp-content/themes/markupshop/sass/_home.scss
-        from line 10 of /Applications/MAMP/htdocs/markup-shop/wp-content/themes/markupshop/sass/screen.scss
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-Backtrace:
-/Applications/MAMP/htdocs/markup-shop/wp-content/themes/markupshop/sass/_home.scss:328
-/Applications/MAMP/htdocs/markup-shop/wp-content/themes/markupshop/sass/screen.scss:10
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1147:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1085:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1080:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:536:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:349:in `media_directive'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:174:in `special_directive'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:146:in `directive'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:553:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:546:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:82:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:27:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/engine.rb:342:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/engine.rb:274:in `to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/root_node.rb:20:in `render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:138:in `block in compile'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/logger.rb:45:in `red'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:137:in `compile'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:118:in `compile_if_required'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `each'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `block in run'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:100:in `run'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:87:in `perform'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/commands/base.rb:18:in `execute'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/bin/compass:30:in `block in <top (required)>'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/bin/compass:44:in `call'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/bin/compass:44:in `<top (required)>'
-/usr/bin/compass:23:in `load'
-/usr/bin/compass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 328 of /Applications/MAMP/htdocs/markup-shop/wp-content/themes/markupshop/sass/_home.scss\A         from line 10 of /Applications/MAMP/htdocs/markup-shop/wp-content/themes/markupshop/sass/screen.scss"; }
+/* line 22, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_global.scss */
+.page-title {
+  text-indent: -9999em;
+  background: url("../assets/images/logo-stacked.png") no-repeat center center;
+  margin: 0 auto 2em;
+  width: 200px;
+  height: 100px;
+}
+
+/* line 9, ../sass/_global.scss */
+.section-header {
+  margin-bottom: 2em;
+  font-size: 2em;
+  font-weight: 600;
+  color: #fff;
+  opacity: .5;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/* line 21, ../sass/_global.scss */
+footer {
+  padding: 2em 12.5%;
+  background: #666;
+}
+/* line 25, ../sass/_global.scss */
+footer dl {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 28, ../sass/_global.scss */
+footer dl dt {
+  float: left;
+  font-family: "proxima-nova";
+  color: #fff;
+  font-weight: 100;
+  padding-top: 10px;
+}
+/* line 35, ../sass/_global.scss */
+footer dl dd {
+  float: right;
+  background: #ccc;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  text-indent: -9999em;
+  display: inline-block;
+  background: url("../assets/images/social-sprite.png") no-repeat 0 0;
+}
+/* line 45, ../sass/_global.scss */
+footer dl dd.facebook {
+  background-position: -30px 0;
+}
+/* line 46, ../sass/_global.scss */
+footer dl dd.skype {
+  background-position: -60px 0;
+}
+
+/* line 51, ../sass/_global.scss */
+section {
+  padding: 2em 15%;
+  font-family: 'proxima-nova', helvetica, arial;
+  font-size: 1.2em;
+}
+
+/* line 57, ../sass/_global.scss */
+.access {
+  display: none;
+}
+
+/* line 5, ../sass/_home.scss */
+#intro {
+  background: #76bee4 url("../assets/images/home/yosemite_banner.jpg") no-repeat center center;
+  background-size: cover;
+  font-size: 3em;
+  line-height: 1.4em;
+  color: #fff;
+  font-weight: 100;
+  position: relative;
+  text-align: center;
+}
+
+/* line 16, ../sass/_home.scss */
+#about {
+  padding-top: 5em;
+  padding-bottom: 6em;
+  border-top: 5px solid #666;
+  background: url("http://subtlepatterns.com/patterns/subtle_dots.png") repeat 0 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 23, ../sass/_home.scss */
+#about .section-header {
+  color: #aaa;
+}
+/* line 27, ../sass/_home.scss */
+#about .about-text {
+  line-height: 1.6em;
+  font-size: 2em;
+  font-weight: 300;
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+/* line 34, ../sass/_home.scss */
+#about .about-text p + p {
+  margin-top: 2em;
+}
+
+/* line 41, ../sass/_home.scss */
+#services {
+  background: #edb664;
+  padding-top: 5em;
+  padding-bottom: 7em;
+  border-top: 5px solid #666;
+  border-bottom: 5px solid #666;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 49, ../sass/_home.scss */
+#services dl {
+  width: 28%;
+  margin: 0 2.5%;
+  float: left;
+  text-align: center;
+}
+/* line 55, ../sass/_home.scss */
+#services dl .icon {
+  display: block;
+}
+/* line 59, ../sass/_home.scss */
+#services dl .icon svg {
+  display: block;
+  width: 33%;
+  min-width: 65px;
+  margin: 0 auto;
+  fill: #fff;
+  opacity: .5;
+}
+/* line 68, ../sass/_home.scss */
+#services dl .icon {
+  margin-bottom: 2em;
+}
+/* line 72, ../sass/_home.scss */
+#services dl dt {
+  font-weight: 800;
+  margin-bottom: 1em;
+  letter-spacing: 2px;
+}
+/* line 78, ../sass/_home.scss */
+#services dl dd {
+  line-height: 1.4em;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+/* line 86, ../sass/_home.scss */
+#contact {
+  background: #76bee4;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 92, ../sass/_home.scss */
+#contact .contact-text {
+  color: #fff;
+  text-align: center;
+}
+/* line 96, ../sass/_home.scss */
+#contact .contact-text p {
+  line-height: 1.6em;
+  font-weight: 200;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+/* line 104, ../sass/_home.scss */
+#contact a {
+  padding: 1em;
+  font-size: 2em;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+  display: inline-block;
+  margin-bottom: 2em;
+  border: 1px solid #fff;
+  font-weight: 100;
+  letter-spacing: 3px;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  transition: 0.5s all;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 118, ../sass/_home.scss */
+#contact a:hover {
+  color: #76bee4;
+  background: #fff;
+}
+
+/* line 125, ../sass/_home.scss */
+#bios {
+  padding: 0;
+  background: #76bee4;
+  overflow: hidden;
+  margin-top: 2em;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 132, ../sass/_home.scss */
+#bios div {
+  width: 40%;
+  margin-right: 10%;
+  float: left;
+}
+/* line 137, ../sass/_home.scss */
+#bios div img {
+  float: left;
+  margin-right: 1em;
+  vertical-align: middle;
+  max-width: 250px;
+  width: 45%;
+  z-index: 2;
+  position: relative;
+}
+/* line 147, ../sass/_home.scss */
+#bios div dl {
+  text-align: left;
+  font-size: .8em;
+  background: rgba(255, 255, 255, 0.25);
+  padding: 10%;
+  position: relative;
+  margin-top: 8%;
+  letter-spacing: 1px;
+  border-radius: 100px 10px 10px 100px;
+}
+/* line 157, ../sass/_home.scss */
+#bios div dl dt {
+  color: #fff;
+  font-weight: 400;
+}
+/* line 162, ../sass/_home.scss */
+#bios div dl dd {
+  font-weight: 100;
+  margin-top: .25em;
+  color: #666;
+}
+
+@media screen and (max-width: 1400px) {
+  /* line 174, ../sass/_home.scss */
+  #about .about-text, #contact .contact-text p, #contact a {
+    font-size: 1.4em;
+  }
+}
+@media screen and (max-width: 1300px) {
+  /* line 180, ../sass/_home.scss */
+  #bios div dl dd {
+    font-size: .8em;
+  }
+}
+@media screen and (max-width: 1200px) {
+  /* line 187, ../sass/_home.scss */
+  #about .about-text {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 193, ../sass/_home.scss */
+  #about .about-bios {
+    margin-top: 2em;
+    float: none;
+    width: 100%;
+  }
+  /* line 198, ../sass/_home.scss */
+  #about .about-bios dl {
+    width: 50%;
+    text-align: center;
+    float: left;
+  }
+  /* line 203, ../sass/_home.scss */
+  #about .about-bios dl img {
+    margin: 0 0 1em;
+    float: none;
+  }
+}
+@media screen and (max-width: 1100px) {
+  /* line 217, ../sass/_home.scss */
+  #bios div img {
+    max-width: 150px;
+  }
+  /* line 220, ../sass/_home.scss */
+  #bios div dl {
+    background: none;
+    padding: 5% 0 0 155px;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 229, ../sass/_home.scss */
+  #bios div img {
+    max-width: 75px;
+  }
+  /* line 231, ../sass/_home.scss */
+  #bios div dl {
+    padding: 0 0 0 85px;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 240, ../sass/_home.scss */
+  #intro {
+    font-size: 2.5em;
+  }
+
+  /* line 244, ../sass/_home.scss */
+  #about .about-text {
+    font-size: 1.2em;
+  }
+
+  /* line 249, ../sass/_home.scss */
+  #services dl {
+    width: 100%;
+    float: none;
+  }
+  /* line 253, ../sass/_home.scss */
+  #services dl + dl {
+    margin-top: 4em;
+  }
+
+  /* line 260, ../sass/_home.scss */
+  #contact form {
+    width: 100%;
+  }
+  /* line 264, ../sass/_home.scss */
+  #contact .contact-text p {
+    float: none;
+    width: 100%;
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 274, ../sass/_home.scss */
+  #bios div {
+    width: 100%;
+    clear: both;
+    float: none;
+  }
+  /* line 279, ../sass/_home.scss */
+  #bios div img {
+    display: none;
+  }
+  /* line 283, ../sass/_home.scss */
+  #bios div dl {
+    padding: 0;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  /* line 288, ../sass/_home.scss */
+  #bios div dl dt {
+    font-weight: 100;
+  }
+  /* line 292, ../sass/_home.scss */
+  #bios div dl dd {
+    font-size: .7em;
+    margin-top: .5em;
+    opacity: .5;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 303, ../sass/_home.scss */
+  #intro {
+    font-size: 1.6em;
+  }
+
+  /* line 307, ../sass/_home.scss */
+  #contact a {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 315, ../sass/_home.scss */
+  #about .about-text {
+    font-size: .8em;
+  }
+
+  /* line 320, ../sass/_home.scss */
+  #contact .contact-text {
+    font-size: .8em;
+  }
+  /* line 323, ../sass/_home.scss */
+  #contact a {
+    font-size: .8em;
+  }
+}
