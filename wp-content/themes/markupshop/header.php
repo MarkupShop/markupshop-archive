@@ -20,5 +20,6 @@
 	</head>
 	
 	<body>
+		<script>alert(window.location.hostname);</script>
 		<?php include('analytics.php'); ?>
 		
