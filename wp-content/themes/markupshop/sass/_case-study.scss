@@ -1,0 +1,41 @@
+.case-study{
+	
+	section{
+		clear: both;
+		@include legacy-pie-clearfix;
+		overflow: hidden;
+		position: relative;
+		
+		&.problem{
+			border-top: 1px solid $blue;
+		}
+		
+		&.solution{
+			border-top: 1px solid $orange;
+		}
+		
+		.section-text{
+			float: left;
+			width: 45%;
+			line-height: 1.4em;
+			background: rgba( 255,255,255, .75);
+			padding: 2em;
+			margin-left: -2em;
+			
+			p{
+				margin-bottom: 1em;
+			}
+		}
+		
+		.section-header{
+			color: #000;
+		}
+		
+		img{
+			position: absolute;
+			@include box-shadow(0 0 2em #aaa);
+			right: -50%;
+		}
+	}
+	
+}

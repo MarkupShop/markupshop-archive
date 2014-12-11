@@ -3,15 +3,6 @@
     get_template_part('svg');
 ?>
 
-
-
-<section id="intro">
-
-	<h1 class="page-title">MarkupShop</h1>
-	<h2>A small development agency focused on helping people build the things they need.</h2>
-
-</section>
-
 <section id="about">
 
 	<h3 class="section-header">About Us</h3>

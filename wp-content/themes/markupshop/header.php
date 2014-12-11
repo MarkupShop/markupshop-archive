@@ -20,5 +20,22 @@
 	</head>
 	
 	<body>
-		<?php include('analytics.php'); ?>
+		<?php include('analytics.php'); 
 		
+		if(is_home() == false): ?>
+			
+			<header>
+
+				<h1 class="page-title">MarkupShop</h1>
+
+			</header>
+		<?php else:	?>
+		
+			<header id="intro">
+
+				<h1 class="page-title">MarkupShop</h1>
+				<h2>A small development agency focused on helping people build the things they need.</h2>
+
+			</header>
+			
+		<?php endif; ?>

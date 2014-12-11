@@ -127,7 +127,7 @@ footer dl dd.skype {
 }
 
 /* line 51, ../sass/_global.scss */
-section {
+section, header {
   padding: 2em 15%;
   font-family: 'proxima-nova', helvetica, arial;
   font-size: 1.2em;
@@ -474,4 +474,53 @@ section {
   #contact a {
     font-size: .8em;
   }
+}
+/* line 3, ../sass/_case-study.scss */
+.case-study section {
+  clear: both;
+  *zoom: 1;
+  overflow: hidden;
+  position: relative;
+}
+/* line 22, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.case-study section:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+/* line 9, ../sass/_case-study.scss */
+.case-study section.problem {
+  border-top: 1px solid #76bee4;
+}
+/* line 13, ../sass/_case-study.scss */
+.case-study section.solution {
+  border-top: 1px solid #edb664;
+}
+/* line 17, ../sass/_case-study.scss */
+.case-study section .section-text {
+  float: left;
+  width: 45%;
+  line-height: 1.4em;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 2em;
+  margin-left: -2em;
+}
+/* line 25, ../sass/_case-study.scss */
+.case-study section .section-text p {
+  margin-bottom: 1em;
+}
+/* line 30, ../sass/_case-study.scss */
+.case-study section .section-header {
+  color: #000;
+}
+/* line 34, ../sass/_case-study.scss */
+.case-study section img {
+  position: absolute;
+  -webkit-box-shadow: 0 0 2em #aaaaaa;
+  -moz-box-shadow: 0 0 2em #aaaaaa;
+  box-shadow: 0 0 2em #aaaaaa;
+  right: -50%;
 }
