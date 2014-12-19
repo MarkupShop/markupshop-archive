@@ -1,4 +1,4 @@
-<footer>
+<footer role="contentinfo">
 	<dl>
 		<dt>MarkupShop, LLC</dt>
 		
