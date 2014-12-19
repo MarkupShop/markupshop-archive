@@ -80,7 +80,7 @@
 	
 		<p>If you&rsquo;ve got a project ready to start, or are just looking for someone to be your &ldquo;go-to&rdquo; developers in the future, we&rsquo;d love to hear from you. We love talking with others about their projects and helping folks map out the way forward.</p>
 		
-		<section id="bios">
+		<div id="bios">
 
 			<div class="mobley">
 				<img alt="Josh Mobley" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/mobley_circle.png" />
@@ -98,7 +98,7 @@
 				</dl>
 			</div>
 
-		</section>
+		</div>
 		
 	</div>
 	
