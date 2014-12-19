@@ -15,9 +15,9 @@
 	<h3 class="section-header">About Us</h3>
 
 	<div class="about-text">
-		<p>Organizations and their clients are desperate for reliable development when they need it &mdash; and we're here to help.</p>
+		<p>Organizations and their clients are desperate for reliable development when they need it &mdash; and we&rsquo;re here to help.</p>
 		<p>We believe that well-crafted development is necessary to produce quality products. We're obsessive about delivering high-quality code and doing it on time.</p>
-		<p>We're not interested in being the biggest agency around &mdash; just a valuable partner for the folks we work with.</p>
+		<p>We&rsquo;re not interested in being the biggest agency around &mdash; just a valuable partner for the folks we work with.</p>
 	</div>
 
 </section><!--#about-->
@@ -47,7 +47,7 @@
             </span>
             CMS Customization
         </dt>
-		<dd>Have a CMS that just needs a little work? We're here for you, too.</dd>
+		<dd>Have a CMS that just needs a little work? We&rsquo;re here for you, too.</dd>
 	</dl>
 
 	<dl class="support">
@@ -72,7 +72,7 @@
 		
 		<a href="mailto:contact@markupshop.com">contact<span>@markupshop.com</span></a> 
 	
-		<p>If you've got a project ready to start, or are just looking for someone to be your "go-to" developers in the future, we'd love to hear from you. We love talking with others about their projects and helping folks map out the way forward.</p>
+		<p>If you&rsquo;ve got a project ready to start, or are just looking for someone to be your &ldquo;go-to&rdquo; developers in the future, we&rsquo;d love to hear from you. We love talking with others about their projects and helping folks map out the way forward.</p>
 		
 		<section id="bios">
 
@@ -98,6 +98,4 @@
 	
 </section>
 
-<?php 
-get_footer(); 
-?>
+<?php get_footer(); ?>
