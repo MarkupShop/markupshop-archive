@@ -3,14 +3,20 @@
     get_template_part('svg');
 ?>
 
-<section id="intro">
+<section id="intro" role="banner">
 
-	<h1 class="page-title">MarkupShop</h1>
+	<h1 class="page-title">
+		<svg viewBox="0 0 400 400" class="main-logo" aria-label="MarkupShop">
+			<title>MarkupShop</title>
+            <use xlink:href="#markupshop-logo"></use>
+        </svg>
+	</h1>
+
 	<h2>A small development agency focused on helping people build the things they need.</h2>
 
 </section>
 
-<section id="about">
+<section id="about" role="section">
 
 	<h3 class="section-header">About Us</h3>
 
@@ -22,7 +28,7 @@
 
 </section><!--#about-->
 
-<section id="services">
+<section id="services" role="section">
 
 	<h3 class="section-header">Services</h3>
 
@@ -64,7 +70,7 @@
 
 </section><!--#services-->
 
-<section id="contact">
+<section id="contact" role="section">
 
 	<div class="contact-text">
 
