@@ -2,7 +2,7 @@ $orange: #edb664;
 $blue: #76bee4;
 
 #intro{
-	background: $blue url('../assets/images/home/yosemite_banner.jpg') no-repeat center center;
+	background: $blue url('../random.php') no-repeat center center;
 	background-size: cover;	
 	font-size: 3em;
 	line-height: 1.4em;
@@ -168,13 +168,13 @@ $blue: #76bee4;
 
 }
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1600px){
 	#about .about-text, #contact .contact-text p, #contact a{
 		font-size: 1.4em;
 	}
 }
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1500px){
 	#bios div dl dd{ font-size: .8em; }
 }
 
