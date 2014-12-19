@@ -83,7 +83,7 @@
 		<section id="bios">
 
 			<div class="mobley">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/mobley_circle.png" />
+				<img alt="Josh Mobley" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/mobley_circle.png" />
 				<dl>
 					<dt class="name">Josh Mobley</dt>
 					<dd class="job-title">Managing Partner</dd>
@@ -91,7 +91,7 @@
 			</div>
 
 			<div class="rucker">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/rucker_circle.png" />
+				<img alt="Josh Rucker" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/rucker_circle.png" />
 				<dl>
 					<dt class="name">Josh Rucker</dt>
 					<dd class="job-title">Partner</dd>
