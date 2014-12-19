@@ -3,8 +3,6 @@
     get_template_part('svg');
 ?>
 
-
-
 <section id="intro">
 
 	<h1 class="page-title">MarkupShop</h1>
