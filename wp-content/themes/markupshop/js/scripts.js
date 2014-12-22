@@ -43,9 +43,13 @@ $(document).ready(function(){
 		intro: $body.find('#intro')
 	};
 
-	var initialSize = $domRefs.intro.height();
-
 	function setIntroSize() {
+
+		// make height auto
+		$domRefs.intro.css('height','auto');
+
+		var initialSize = $domRefs.intro.height();
+
 		// Set height of intro
 		var windowHeight = $window.height();
 		var windowWidth = $window.width();
@@ -53,9 +57,13 @@ $(document).ready(function(){
 		var introPadding = $domRefs.intro.innerHeight() - introHeight;
 
 		var newIntroHeight = (windowWidth > windowHeight) ? (windowHeight - introPadding) : windowWidth; 
-		newIntroHeight = (newIntroHeight < initialSize) ? initialSize : newIntroHeight; 
-		 
-		$domRefs.intro.height(newIntroHeight);
+		
+		if(newIntroHeight > initialSize){
+			$domRefs.intro.height(newIntroHeight);
+		} else {
+			$domRefs.intro.css('height','auto');
+		} 
+
 	}
 
 	setIntroSize();
