@@ -17,7 +17,7 @@
 		<meta name="twitter:site" content="@markupshop" />
 		<meta name="twitter:creator" content="@markupshop" />
 
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/stylesheets/screen.css">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/stylesheets/home.css">
 		<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.png">
 		
 		<!--[if lt IE 9]>
