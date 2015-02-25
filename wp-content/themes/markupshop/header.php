@@ -26,7 +26,7 @@
 			
 			<header>
 
-				<h1 class="page-title">MarkupShop</h1>
+				<a href="<?php bloginfo('url'); ?>"><h1 class="page-title horizontal">MarkupShop</h1></a>
 
 			</header>
 		<?php else:	?>

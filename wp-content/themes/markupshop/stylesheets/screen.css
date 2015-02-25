@@ -75,8 +75,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 200px;
   height: 100px;
 }
+/* line 8, ../sass/_global.scss */
+.page-title.horizontal {
+  background-image: url("../assets/images/logo-horizontal.png");
+  width: 250px;
+  height: 50px;
+  margin: 0 auto;
+}
 
-/* line 9, ../sass/_global.scss */
+/* line 16, ../sass/_global.scss */
 .section-header {
   margin-bottom: 2em;
   font-size: 2em;
@@ -88,17 +95,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   text-align: center;
 }
 
-/* line 21, ../sass/_global.scss */
+/* line 28, ../sass/_global.scss */
 footer {
   padding: 2em 12.5%;
   background: #666;
 }
-/* line 25, ../sass/_global.scss */
+/* line 32, ../sass/_global.scss */
 footer dl {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 28, ../sass/_global.scss */
+/* line 35, ../sass/_global.scss */
 footer dl dt {
   float: left;
   font-family: "proxima-nova";
@@ -106,7 +113,7 @@ footer dl dt {
   font-weight: 100;
   padding-top: 10px;
 }
-/* line 35, ../sass/_global.scss */
+/* line 42, ../sass/_global.scss */
 footer dl dd {
   float: right;
   background: #ccc;
@@ -117,29 +124,34 @@ footer dl dd {
   display: inline-block;
   background: url("../assets/images/social-sprite.png") no-repeat 0 0;
 }
-/* line 45, ../sass/_global.scss */
+/* line 52, ../sass/_global.scss */
 footer dl dd.facebook {
   background-position: -30px 0;
 }
-/* line 46, ../sass/_global.scss */
+/* line 53, ../sass/_global.scss */
 footer dl dd.skype {
   background-position: -60px 0;
 }
 
-/* line 51, ../sass/_global.scss */
-section, header {
+/* line 58, ../sass/_global.scss */
+header {
+  padding: 2em 15% 0;
+}
+
+/* line 62, ../sass/_global.scss */
+section, #intro {
   padding: 2em 15%;
   font-family: 'proxima-nova', helvetica, arial;
   font-size: 1.2em;
 }
 
-/* line 57, ../sass/_global.scss */
+/* line 70, ../sass/_global.scss */
 .access {
   display: none;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 62, ../sass/_global.scss */
+  /* line 75, ../sass/_global.scss */
   .section-header {
     font-size: 1.4em;
   }
@@ -478,28 +490,30 @@ section, header {
 /* line 3, ../sass/_case-study.scss */
 .case-study section {
   clear: both;
-  *zoom: 1;
   overflow: hidden;
+  *zoom: 1;
   position: relative;
 }
-/* line 22, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.case-study section:after {
-  content: "\0020";
-  display: block;
-  height: 0;
-  clear: both;
-  overflow: hidden;
-  visibility: hidden;
-}
-/* line 9, ../sass/_case-study.scss */
-.case-study section.problem {
-  border-top: 1px solid #76bee4;
+/* line 8, ../sass/_case-study.scss */
+.case-study section.case-study-header {
+  padding-top: .25em;
+  text-align: center;
 }
 /* line 13, ../sass/_case-study.scss */
-.case-study section.solution {
-  border-top: 1px solid #edb664;
+.case-study section .category-title {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #555;
+  letter-spacing: 2px;
 }
-/* line 17, ../sass/_case-study.scss */
+/* line 20, ../sass/_case-study.scss */
+.case-study section .study-title {
+  font-size: 2.4em;
+  font-weight: 100;
+  margin-top: 1em;
+  margin-bottom: 1.4em;
+}
+/* line 27, ../sass/_case-study.scss */
 .case-study section .section-text {
   float: left;
   width: 45%;
@@ -508,19 +522,18 @@ section, header {
   padding: 2em;
   margin-left: -2em;
 }
-/* line 25, ../sass/_case-study.scss */
+/* line 35, ../sass/_case-study.scss */
 .case-study section .section-text p {
   margin-bottom: 1em;
 }
-/* line 30, ../sass/_case-study.scss */
+/* line 40, ../sass/_case-study.scss */
 .case-study section .section-header {
   color: #000;
 }
-/* line 34, ../sass/_case-study.scss */
+/* line 44, ../sass/_case-study.scss */
 .case-study section img {
-  position: absolute;
-  -webkit-box-shadow: 0 0 2em #aaaaaa;
-  -moz-box-shadow: 0 0 2em #aaaaaa;
-  box-shadow: 0 0 2em #aaaaaa;
-  right: -50%;
+  width: 100%;
+  -webkit-box-shadow: 0 0 10px #cccccc;
+  -moz-box-shadow: 0 0 10px #cccccc;
+  box-shadow: 0 0 10px #cccccc;
 }

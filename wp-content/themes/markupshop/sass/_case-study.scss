@@ -2,16 +2,26 @@
 	
 	section{
 		clear: both;
-		@include legacy-pie-clearfix;
-		overflow: hidden;
+		@include clearfix;
 		position: relative;
 		
-		&.problem{
-			border-top: 1px solid $blue;
+		&.case-study-header{
+			padding-top: .25em;
+			text-align: center;
 		}
 		
-		&.solution{
-			border-top: 1px solid $orange;
+		.category-title{
+			font-size: 1.2em;
+			font-weight: 400;
+			color: #555;
+			letter-spacing: 2px;
+		}
+		
+		.study-title{
+			font-size: 2.4em;
+			font-weight: 100;
+			margin-top: 1em;
+			margin-bottom: 1.4em;
 		}
 		
 		.section-text{
@@ -32,9 +42,8 @@
 		}
 		
 		img{
-			position: absolute;
-			@include box-shadow(0 0 2em #aaa);
-			right: -50%;
+			width: 100%;
+			@include box-shadow(0 0 10px #ccc);
 		}
 	}
 	

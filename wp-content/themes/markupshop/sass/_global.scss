@@ -4,6 +4,13 @@
 	margin: 0 auto 2em;
 	width: 200px;
 	height: 100px;
+	
+	&.horizontal{
+		background-image: url('../assets/images/logo-horizontal.png');
+		width: 250px;
+		height: 50px;
+		margin: 0 auto;
+	}
 }
 
 .section-header{
@@ -48,11 +55,17 @@ footer{
 	}
 }
 
-section, header {
+header{
+	padding: 2em 15% 0;
+}
+
+section, #intro {
   	padding: 2em 15%;
 	font-family: 'proxima-nova', helvetica, arial;
 	font-size: 1.2em;
 }
+
+
 
 .access{
 	display: none;
