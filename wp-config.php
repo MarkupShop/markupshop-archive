@@ -16,16 +16,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'markupshop');
+define('DB_NAME', 'db169721_markupshop');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'db169721');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'Sem1n01e*!');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'internal-db.s169721.gridserver.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -34,9 +34,9 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 /** Update base url if we're in staging **/
-$host = $_SERVER['HTTP_HOST'];
+$serverName = $_SERVER['SERVER_NAME'];
 
-if($host && strstr($host,'staging')){
+if($serverName && strstr($serverName,'staging')){
 	define('WP_HOME','http://staging.markupshop.com');
 	define('WP_SITEURL','http://staging.markupshop.com');
 }
