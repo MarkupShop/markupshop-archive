@@ -39,8 +39,6 @@ $host = $_SERVER['HTTP_HOST'];
 if($host && strstr($host,'staging')){
 	define('WP_HOME','http://staging.markupshop.com');
 	define('WP_SITEURL','http://staging.markupshop.com');
-} else {
-	print_r($_SERVER);
 }
 
 
