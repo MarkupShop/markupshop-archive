@@ -34,11 +34,13 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 /** Update base url if we're in staging **/
-$serverName = $_SERVER['SERVER_NAME'];
+$host = $_SERVER['HTTP_HOST'];
 
-if($serverName && strstr($serverName,'staging')){
+if($host && strstr($host,'staging')){
 	define('WP_HOME','http://staging.markupshop.com');
 	define('WP_SITEURL','http://staging.markupshop.com');
+} else {
+	print_r($_SERVER);
 }
 
 
